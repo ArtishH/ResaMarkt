@@ -34,9 +34,9 @@ const playerData = {
     awards: [
         { name: "İspanya LaLiga2", image: "https://tmssl.akamaized.net//images/erfolge/medium/878.png", seasons: ["Sezon 10(Getafe)"] },
         { name: "Fa Cup", image: "https://www.kindpng.com/picc/m/419-4195027_820-x-1222-fa-cup-trophy-png-transparent.png", seasons: ["Sezon 15(Manchester City)"] },
-        { name: "Promotion Division", image: "https://clipart-library.com/img/1260244.png", seasons: ["Sezon 13(Lille)"] },
+        { name: "Tier 2", image: "https://clipart-library.com/img/1260244.png", seasons: ["?"] },
         { name: "Resa Cup", image: "https://e7.pngegg.com/pngimages/388/563/png-clipart-trophy-golden-cup-gold-trophy-metal-digital-image.png", seasons: ["Sezon 18(Juventus)"] },
-        { name:"Uefa Champions League", image: "https://i.pinimg.com/736x/02/82/80/0282805dcfe401855ad998b80e95a549.jpg", seasons: ["Sezon 18(Juventus)"] },
+        { name:"Şampiyonlar Ligi", image: "https://i.pinimg.com/736x/02/82/80/0282805dcfe401855ad998b80e95a549.jpg", seasons: ["Sezon 18(Juventus)"] },
         { name: "Uefa Super Cup", image: "https://i.pinimg.com/564x/23/30/74/23307464e47f1581246d6cf6679d9cea.jpg", seasons: ["Sezon 18(Juventus)"] }
     ],
     seasons: {
@@ -62,24 +62,26 @@ const playerData = {
         },
         "Sezon 11": {
             leagueLogos: {
-                "Serie A": "https://brandlogos.net/wp-content/uploads/2025/02/serie_a-logo_brandlogos.net_kmz4e.png",
-                "TIM Cup": "https://classicfootballshirts.co.uk/pub/media/catalog/product/t/i/timcup_finale2019_patch.jpg",
-                "Uefa Champions League": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo_UEFA_Champions_League.png"
+                "La Liga": "https://brandlogos.net/wp-content/uploads/2023/07/la_liga-logo_brandlogos.net_e6gnt.png",
+                
             },
             stats: {
-                "Serie A": { matches: 6, starting: 5, goals: 0, assists: 0, yellowCards: 0, yellowRedCards: 0, redCards: 0, team: "Atalanta" },
-                "TIM Cup": { matches: 3, starting: 1, goals: 0, assists: 0, yellowCards: 0, yellowRedCards: 0, redCards: 0, team: "Atalanta" },
-                "Uefa Champions League": { matches: 4, starting: 4, goals: 1, assists: 1, yellowCards: 1, yellowRedCards: 0, redCards: 0, team: "Atalanta" }
+                "La Liga": { matches: 5, starting: 3, goals: 1, assists: 1, yellowCards: 0, yellowRedCards: 0, redCards: 0, team: "Celta Vigo" },
+                
             }
         },
-        "Sezon 12": {
-            leagueLogos: {
-                "Tier 2": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/grid-2/8/83/T2.jpg",
-            },
-            stats: {
-                "Tier 2": { matches: 2, starting: 1, goals: 0, assists: 0, yellowCards: 0, yellowRedCards: 0, redCards: 0, team: "Lille OSC" }
-            }
+        "sezon 12":{ 
+        leagueLogos: {
+            "Serie A": "https://brandlogos.net/wp-content/uploads/2025/02/serie_a-logo_brandlogos.net_kmz4e.png",
+            "TIM Cup": "https://classicfootballshirts.co.uk/pub/media/catalog/product/t/i/timcup_finale2019_patch.jpg",
+            "Uefa Champions League": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo_UEFA_Champions_League.png"
         },
+        stats: {
+            "Serie A": { matches: 6, starting: 5, goals: 0, assists: 0, yellowCards: 0, yellowRedCards: 0, redCards: 0, team: "Atalanta" },
+            "TIM Cup": { matches: 3, starting: 1, goals: 0, assists: 0, yellowCards: 0, yellowRedCards: 0, redCards: 0, team: "Atalanta" },
+            "Uefa Champions League": { matches: 4, starting: 4, goals: 1, assists: 1, yellowCards: 1, yellowRedCards: 0, redCards: 0, team: "Atalanta" }
+        }
+    },
         "Sezon 13": {
             leagueLogos: {
                 "Bundesliga": "https://upload.wikimedia.org/wikipedia/tr/d/d9/Bundesliga_2017_logo.png",
@@ -114,7 +116,7 @@ const playerData = {
         },
         "Sezon 17": {
             leagueLogos: {
-                "Expansion League": "https://images.seeklogo.com/logo-png/49/1/danish-2nd-division-logo-png_seeklogo-496525.png",
+                "Expansion League": "https://i.hizliresim.com/f3bnkpg.png",
                 "Uefa Champions League": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo_UEFA_Champions_League.png",
             },
             stats: {
@@ -124,11 +126,11 @@ const playerData = {
         },
         "Sezon 18": {
             leagueLogos: {
-                "Division A": "https://i.hizliresim.com/1vwnk4e.png",
+                "Division A": "https://i.hizliresim.com/qdxxp0u.png",
                 "Uefa Champions League": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo_UEFA_Champions_League.png",
             },
             stats: {
-                "Division A": { matches: 7, starting: 6, goals: 0, assists: 0, yellowCards: 1, yellowRedCards: 0, redCards: 0, team: "Juventus" },
+                "Division A": { matches: 10, starting: 8, goals: 0, assists: 0, yellowCards: 1, yellowRedCards: 0, redCards: 0, team: "Juventus" },
                 "Uefa Champions League": { matches: 6, starting: 6, goals: 0, assists: 0, yellowCards: 0, yellowRedCards: 0, redCards: 0, team: "Juventus" }
             }
         }
@@ -272,26 +274,10 @@ const playerData = {
                 logo: "https://www.fifacm.com/content/media/imgs/fifa22/teams/256/l111592.png"
             },
             currentClub: {
-                country: "İtalya",
-                name: "Atalanta",
-                league: "Serie A",
-                logo: "https://w7.pngwing.com/pngs/770/754/png-transparent-atalanta-thumbnail.png"
-            }
-        },
-        {
-            season: "Sezon 12",
-            type: "Release",
-            previousClub: {
                 country: "İspanya",
                 name: "Celta Vigo",
                 league: "LaLiga",
                 logo: "https://upload.wikimedia.org/wikipedia/tr/3/3d/Celta_de_Vigo.png"
-            },
-            currentClub: {
-                country: "",
-                name: "Takımsız",
-                league: "",
-                logo: "https://www.fifacm.com/content/media/imgs/fifa22/teams/256/l111592.png"
             }
         },
         {
@@ -304,12 +290,14 @@ const playerData = {
                 logo: "https://www.fifacm.com/content/media/imgs/fifa22/teams/256/l111592.png"
             },
             currentClub: {
-                country: "Fransa",
-                name: "Lille OSC",
-                league: "Promotion Division",
-                logo: "https://upload.wikimedia.org/wikipedia/tr/a/a3/Lilleoscyeni.png"
+                country: "İtalya",
+                name: "Atalanta",
+                league: "Serie A",
+                logo: "https://w7.pngwing.com/pngs/770/754/png-transparent-atalanta-thumbnail.png"
             }
         },
+       
+
         {
             season: "Sezon 13",
             type: "Transfer",
@@ -478,13 +466,13 @@ const statsTeamLogos = {
     "Atletico Madrid": "https://images.seeklogo.com/logo-png/29/1/atletico-madrid-new-logo-png_seeklogo-297708.png",
     "Getafe": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Getafe_CF_Logo.png",
     "Atalanta": "https://upload.wikimedia.org/wikipedia/en/thumb/6/66/AtalantaBC.svg/1200px-AtalantaBC.svg.png",
-    "Lille OSC": "https://upload.wikimedia.org/wikipedia/tr/a/a3/Lilleoscyeni.png",
+    "Celta Vigo": "https://upload.wikimedia.org/wikipedia/tr/3/3d/Celta_de_Vigo.png",
     "Borussia Monchengladbach": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Borussia_Mönchengladbach_logo.svg/640px-Borussia_Mönchengladbach_logo.svg.png",
     "Manchester City FC": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/1200px-Manchester_City_FC_badge.svg.png",
     "FK Dinamo Kiev": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/FC_Dynamo_Kyiv_logo.svg/1200px-FC_Dynamo_Kyiv_logo.svg.png",
     "RB Leipzig": "https://upload.wikimedia.org/wikipedia/tr/f/fd/RB_Leipzig.png",
     "Galatasaray": "https://images.seeklogo.com/logo-png/61/1/galatasaray-5-yildizli-concept-logo-png_seeklogo-617686.png",
-    "Juventus": "https://upload.wikimedia.org/wikipedia/commons/5/51/Juventus_FC_logo.png",
+    "Juventus": "https://upload.wikimedia.org/wikipedia/commons/5/51/Juventus_FC_2017_logo.png",
 };
 
 // DOM elementlerine veri atama
@@ -598,6 +586,7 @@ function showAwardModal(award) {
 
 // Sezon Filtresi
 const seasonFilter = document.getElementById("season-filter");
+seasonFilter.innerHTML = ''; // Mevcut seçenekleri temizle
 const allSeasonsOption = document.createElement("option");
 allSeasonsOption.value = "Tüm Zamanlar";
 allSeasonsOption.textContent = "Tüm Zamanlar";
@@ -641,7 +630,7 @@ function getAllSeasonsStats() {
 function updateLeagueSelector(season) {
     const leagueSelector = document.getElementById("league-selector");
     leagueSelector.innerHTML = '';
-    if (season === "Tüm Zamanlar") {
+    if (season === "Tüm Zamanlar" || !playerData.seasons[season]) {
         leagueSelector.style.display = 'none';
         updateStats(season, null);
         return;
@@ -655,6 +644,7 @@ function updateLeagueSelector(season) {
         const img = document.createElement("img");
         img.src = leagueLogos[league] || "https://via.placeholder.com/40?text=Unknown";
         img.alt = league;
+        img.title = league; // Lig ismini tooltip olarak ekle
         img.style.border = league === availableLeagues[0] ? "3px solid #60a5fa" : "none";
         img.addEventListener("click", () => {
             availableLeagues.forEach(l => {
@@ -670,9 +660,6 @@ function updateLeagueSelector(season) {
         leagueSelector.appendChild(img);
     });
 }
-
-// İlk Sezon için Lig Seçiciyi Güncelle
-updateLeagueSelector("Sezon 8");
 
 // İstatistik Kartları
 const statsCards = document.getElementById("stats-cards");
@@ -751,6 +738,19 @@ function updateStats(season, league) {
     let stats;
     if (season === "Tüm Zamanlar") {
         stats = getAllSeasonsStats();
+    } else if (!playerData.seasons[season]) {
+        document.getElementById("stat-yellow-cards").textContent = "N/A";
+        document.getElementById("stat-yellow-red-cards").textContent = "N/A";
+        document.getElementById("stat-red-cards").textContent = "N/A";
+        document.getElementById("stat-matches").textContent = "N/A";
+        document.getElementById("stat-goals").textContent = "N/A";
+        document.getElementById("stat-assists").textContent = "N/A";
+        updateCircle("circle-starting", 0);
+        updateCircle("circle-yellow-card", 0);
+        updateCircle("circle-red-card", 0);
+        updateCircle("circle-contribution", 0);
+        document.getElementById("team-info").innerHTML = `<span>Sezon için veri bulunamadı</span>`;
+        return;
     } else {
         stats = playerData.seasons[season]?.stats[league];
     }
@@ -766,7 +766,7 @@ function updateStats(season, league) {
         updateCircle("circle-yellow-card", 0);
         updateCircle("circle-red-card", 0);
         updateCircle("circle-contribution", 0);
-        document.getElementById("team-info").innerHTML = `<span>Takım bilgisi mevcut değil</span>`;
+        document.getElementById("team-info").innerHTML = `<span>Lig için veri bulunamadı</span>`;
         return;
     }
 
@@ -797,7 +797,8 @@ function updateStats(season, league) {
 }
 
 // İlk Yüklemede Varsayılan İstatistikleri Göster
-updateStats("Sezon 8", Object.keys(playerData.seasons["Sezon 8"].stats)[0]);
+updateLeagueSelector("Sezon 10");
+updateStats("Sezon 10", Object.keys(playerData.seasons["Sezon 10"].stats)[0]);
 
 // Sezon Filtresi Değişiminde İstatistikleri ve Lig Seçiciyi Güncelle
 seasonFilter.addEventListener("change", (e) => {
@@ -805,9 +806,11 @@ seasonFilter.addEventListener("change", (e) => {
     updateLeagueSelector(season);
     if (season === "Tüm Zamanlar") {
         updateStats(season, null);
-    } else {
+    } else if (playerData.seasons[season]) {
         const selectedLeague = Object.keys(playerData.seasons[season].stats)[0];
         updateStats(season, selectedLeague);
+    } else {
+        updateStats(season, null);
     }
 });
 
