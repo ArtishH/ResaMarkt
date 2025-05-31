@@ -48,7 +48,7 @@ const playerData = {
                 
             },
             stats: {
-                "La Liga": { matches: 15, starting: 10, goals: 5, assists: 3, yellowCards: 0, yellowRedCards: 0, redCards: 0, team: "Atletico Madrid" },
+                "La Liga 2": { matches: 15, starting: 10, goals: 5, assists: 3, yellowCards: 0, yellowRedCards: 0, redCards: 0, team: "Atletico Madrid" },
                 "Uefa Champions League": { matches: 8, starting: 8, goals: 11, assists: 4, yellowCards: 0, yellowRedCards: 0, redCards: 0, team: "Atletico Madrid" },
                
             }
