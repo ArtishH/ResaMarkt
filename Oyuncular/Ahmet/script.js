@@ -53,7 +53,7 @@ const playerData = {
         },
         "Sezon 10": {
             leagueLogos: {
-                "La Liga 2": "https://www.gamesatlas.com/images/football/leagues/la-liga-2.png",
+                "La Liga 2": "https://i.hizliresim.com/ug2tr9k.png",
                 "Copa Del Rey":"https://e7.pngegg.com/pngimages/576/936/png-clipart-2017-18-copa-del-rey-spain-2013-14-copa-del-rey-2017-copa-del-rey-final-logo-club-world-cup-2018-emblem-text-thumbnail.png",
                 "Uefa Europa League":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Europa_League_2021.svg/2120px-Europa_League_2021.svg.png"
             },
