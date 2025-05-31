@@ -14,7 +14,7 @@ const playerData = {
         current: "€12,500,000(S20)",
         highest: "€80,000,000",
         highestDate: "S11",
-        lowest: "€20,000,000(S8)",
+        lowest: "€12,500,000(S20)",
         history: [
             { date: "Sezon 8", value: 20000000 },
             { date: "Sezon 9", value: 25000000 },
@@ -411,7 +411,7 @@ document.getElementById("player-nationality").textContent = playerData.nationali
 // Piyasa Değeri
 const valueSummary = document.getElementById("value-summary");
 valueSummary.innerHTML = `
-    <p>Günümüz Değeri: <span>${playerData.marketValue.current}</span></p>
+    <p>Güncel Değeri: <span>${playerData.marketValue.current}</span></p>
     <p>En Yüksek Değer: <span>${playerData.marketValue.highest} (${playerData.marketValue.highestDate})</span></p>
     <p>En Düşük Değer: <span>${playerData.marketValue.lowest}</span></p>
 `;

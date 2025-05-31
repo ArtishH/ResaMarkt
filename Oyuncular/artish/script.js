@@ -492,7 +492,7 @@ document.getElementById("player-nationality").textContent = playerData.nationali
 // Piyasa Değeri
 const valueSummary = document.getElementById("value-summary");
 valueSummary.innerHTML = `
-    <p>Günümüz Değeri: <span>${playerData.marketValue.current}</span></p>
+    <p>Güncel Değeri: <span>${playerData.marketValue.current}</span></p>
     <p>En Yüksek Değer: <span>${playerData.marketValue.highest} (${playerData.marketValue.highestDate})</span></p>
     <p>En Düşük Değer: <span>${playerData.marketValue.lowest}</span></p>
 `;

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mete7104</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="../../index.html" class="home-button">Ana Sayfa</a>
+    <div class="container">
+        <div class="header">
+            <div class="player-info">
+                <div class="player-image-container">
+                    <img id="player-image" src="" alt="Oyuncu Resmi"> 
+                </div>
+                <h1 id="player-name"></h1>
+            </div>
+            <div class="awards-container">
+                <div class="awards" id="awards"></div>
+            </div>
+        </div>
+        <div class="current-team" id="current-team">
+            <img id="team-logo" src="https://via.placeholder.com/80" alt="Takım Logosu">
+            <div>
+                <p><strong>Takım:</strong> <span id="team-name" class="highlight"></span></p>
+                <p><strong>Lig:</strong> <span id="team-league" class="highlight"></span></p>
+                <p><strong>Lig Seviyesi:</strong> <span id="team-league-level" class="highlight">?</span></p>
+                <hr class="team-divider">
+                <p><strong>Mevki:</strong> <span id="player-position" class="highlight"></span></p>
+                <p><strong>Uyruk:</strong> <img id="player-flag" src="https://via.placeholder.com/30x20" alt="Uyruk Bayrağı"> <span id="player-nationality" class="highlight"></span></p>
+            </div>
+        </div>
+        <div class="details">
+            <div class="market-value">
+                <h2>Piyasa Değeri</h2>
+                <div class="value-summary" id="value-summary"></div>
+                <div class="chart-container">
+                    <canvas id="market-chart"></canvas>
+                </div>
+            </div>
+        </div>
+        <div class="stats">
+            <h2>İstatistikler</h2>
+            <div class="stats-filter">
+                <label for="season-filter">Sezon:</label>
+                <select id="season-filter"></select>
+            </div>
+            <div class="stats-header" id="league-selector"></div>
+            <div class="stats-content">
+                <div id="team-info"></div>
+                <div class="stats-layout">
+                    <div class="stats-cards" id="stats-cards"></div>
+                    <div class="stats-grid" id="stats-grid"></div>
+                    <div class="percentage-grid" id="percentage-grid"></div>
+                </div>
+            </div>
+        </div>
+        <div class="transfer-section">
+            <h2>Transfer Geçmişi</h2>
+            <table class="transfer-table">
+                <thead>
+                    <tr>
+                    </tr>
+                </thead>
+                <tbody id="transfer-history"></tbody>
+            </table>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
