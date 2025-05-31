@@ -31,8 +31,8 @@ const playerData = {
         ]
     },
     awards: [
-        { name: "Premier League", image: "https://i.hizliresim.com/i2q1pet.png", seasons: ["S10 Leicester City"] },
-        { name: "Fa Community Shield", image: "https://i.hizliresim.com/okywy1n.png", seasons: ["S10 Leicester City"] },
+        { name: "Premier League", image: "https://i.hizliresim.com/i2q1pet.png", seasons: ["S10 Leicester City","S13 Liverpool"] },
+        { name: "Fa Community Shield", image: "https://i.hizliresim.com/okywy1n.png", seasons: ["S10 Leicester City","S13 Liverpool"] },
         { name: "Fa Cup", image: "https://www.kindpng.com/picc/m/419-4195027_820-x-1222-fa-cup-trophy-png-transparent.png", seasons: ["S13 Liverpool,S14 Manchester City"] },
         { name: "DFB-Pokal", image: "https://upload.wikimedia.org/wikipedia/commons/4/40/DFB-Pokal_trophy.jpg", seasons: ["S11 Bayern Munich",] },
         { name:"Şampiyonlar Ligi", image: "https://i.pinimg.com/736x/02/82/80/0282805dcfe401855ad998b80e95a549.jpg", seasons: ["S12 Real Madrid"] },
