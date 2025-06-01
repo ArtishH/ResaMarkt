@@ -1,43 +1,42 @@
 const playerData = {
-    name: "babatopcuu",
-    image: "https://i.hizliresim.com/rroolxd.png",
+    name: "emrdoku",
+    image: "https://i.hizliresim.com/kld6vht.png",
     position: "Ortasaha-Forvet",
     nationality: "Türkiye",
     flag: "https://flagcdn.com/w20/tr.png",
     currentTeam: {
-        name: "Borussia Dortmund",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/7/74/Borussia_Dortmund.png",
-        league: "Bundesliga",
+        name: "Arsenal",
+        logo: "https://upload.wikimedia.org/wikipedia/tr/9/92/Arsenal_Football_Club.png",
+        league: "Premier League",
         leagueLevel: "1"
     },
     marketValue: {
-        current: "€60,000,000(S20)",
-        highest: "€85,000,000",
-        highestDate: "S19",
-        lowest: "€900,000(S7)",
+        current: "€25,000,000(S20)",
+        highest: "€60,000,000",
+        highestDate: "S17",
+        lowest: "€900,000(S8)",
         history: [
-            { date: "Sezon 7", value: 900000 },
-            { date: "Sezon 8", value: 3000000 },
-            { date: "Sezon 10", value: 12000000 },
-            { date: "Sezon 11", value: 13100000 },
-            { date: "Sezon 12", value: 10000000 },
-            { date: "Sezon 13", value: 9000000 },
-            { date: "Sezon 14", value: 1000000 },
-            { date: "Sezon 15", value: 1000000 },
-            { date: "Sezon 16", value: 1000000 },
-            { date: "Sezon 17", value: 15000000 },
+            { date: "Sezon 8", value: 900000 },
+            { date: "Sezon 9", value: 1500000 },
+            { date: "Sezon 10", value: 1500000 },
+            { date: "Sezon 11", value: 2500000 },
+            { date: "Sezon 12", value: 20000000 },
+            { date: "Sezon 13", value: 18000000 },
+            { date: "Sezon 14", value: 14000000 },
+            { date: "Sezon 15", value: 25000000 },
+            { date: "Sezon 16", value: 25000000 },
+            { date: "Sezon 17", value: 60000000 },
             { date: "Sezon 18", value: 45000000 },
-            { date: "Sezon 19", value: 85000000 },
-            { date: "Sezon 20", value: 60000000 },
+            { date: "Sezon 19", value: 30000000 },
+            { date: "Sezon 20", value: 25000000 },
+           
         ]
     },
     awards: [
-        { name: "İspanya LaLiga2", image: "https://tmssl.akamaized.net//images/erfolge/medium/878.png", seasons: ["Sezon 10(Getafe)"] },
-        { name: "Fa Cup", image: "https://www.kindpng.com/picc/m/419-4195027_820-x-1222-fa-cup-trophy-png-transparent.png", seasons: ["Sezon 15(Manchester City)"] },
-        { name: "Resa Cup", image: "https://e7.pngegg.com/pngimages/388/563/png-clipart-trophy-golden-cup-gold-trophy-metal-digital-image.png", seasons: ["Sezon 18(Juventus)"] },
-        { name:"Şampiyonlar Ligi", image: "https://i.pinimg.com/736x/02/82/80/0282805dcfe401855ad998b80e95a549.jpg", seasons: ["Sezon 18(Juventus)"] },
-        { name: "Uefa Super Cup", image: "https://i.pinimg.com/564x/23/30/74/23307464e47f1581246d6cf6679d9cea.jpg", seasons: ["Sezon 18(Juventus)"] },
+        { name: "Promotion Division", image: "https://clipart-library.com/img/1260244.png", seasons: ["S12 Napoli"] },
+        { name: "Expansion League", image: "https://clipart-library.com/img/1260244.png", seasons: ["S17 Olympique Lyonnais"] },
         { name: "Serie A", image: "https://i.pinimg.com/736x/a7/f0/ca/a7f0cacbc0773d903f7812852f94c966.jpg", seasons: ["S19 Lazio"] },
+        
     ],
     seasons: {
         "Sezon 8": {
@@ -47,148 +46,125 @@ const playerData = {
                 "Uefa Champions League": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo_UEFA_Champions_League.png",
             },
             stats: {
-                "Bundesliga": { matches: 4, starting: 3, goals: 0, assists: 1, yellowCards: 0, yellowRedCards: 0, redCards: 0, team: "schalke" },
-                "Premier League": { matches: 7, starting: 5, goals: 4, assists: 2, yellowCards: 0, yellowRedCards: 0, redCards: 0, team: "Chelsea" },
-                "Uefa Champions League": { matches: 3, starting: 2, goals: 0, assists: 0, yellowCards: 1, yellowRedCards: 0, redCards: 0, team: "schalke" },
+                "Bundesliga": { matches: 5, starting: 3, goals: 2, assists: 1, yellowCards: 1, yellowRedCards: 0, redCards: 0, team: "Eintracht Frankfurt" },
+                "Premier League": { matches: 7, starting: 5, goals: 3, assists: 2, yellowCards: 0, yellowRedCards: 0, redCards: 0, team: "Chelsea" },
+                "Uefa Champions League": { matches: 3, starting: 2, goals: 1, assists: 0, yellowCards: 1, yellowRedCards: 0, redCards: 0, team: "Eintracht Frankfurt" },
             }
         },
         "Sezon 10": {
             leagueLogos: {
-                "La Liga 2": "https://i.hizliresim.com/ug2tr9k.png",
-                "Copa Del Rey":"https://e7.pngegg.com/pngimages/576/936/png-clipart-2017-18-copa-del-rey-spain-2013-14-copa-del-rey-2017-copa-del-rey-final-logo-club-world-cup-2018-emblem-text-thumbnail.png",
-                "Uefa Europa League":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Europa_League_2021.svg/2120px-Europa_League_2021.svg.png"
+                "Bundesliga": "https://upload.wikimedia.org/wikipedia/tr/d/d9/Bundesliga_2017_logo.png",
+                "Uefa Europa League":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Europa_League_2021.svg/2120px-Europa_League_2021.svg.png",
+                "Uefa Champions League": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo_UEFA_Champions_League.png",
             },
             stats: {
-                "La Liga 2": { matches: 11, starting: 10, goals: 4, assists: 3, yellowCards: 0, yellowRedCards: 0, redCards: 1, team: "Getafe" },
-                "Copa Del Rey": { matches: 2, starting: 2, goals: 1, assists: 1, yellowCards: 0, yellowRedCards: 0, redCards: 0, team: "Getafe" },
-                "Uefa Europa League": { matches: 12, starting: 8, goals: 9, assists: 13, yellowCards: 2, yellowRedCards: 0, redCards: 0, team: "Getafe" },
-                
-                
+                "Bundesliga": { matches: 15, starting: 13, goals: 12, assists: 6, yellowCards: 1, yellowRedCards: 0, redCards: 0, team: "TSG Hoffenheim" },
+                "Uefa Champions League": { matches: 5, starting: 5, goals: 2, assists: 0, yellowCards: 1, yellowRedCards: 0, redCards: 0, team: "TSG Hoffenheim" },
+                "Uefa Europa League": { matches: 6, starting: 5, goals: 6, assists: 3, yellowCards: 1, yellowRedCards: 0, redCards: 0, team: "TSG Hoffenheim" },
             }
         },
         "Sezon 11": {
             leagueLogos: {
-                "Bundesliga": "https://upload.wikimedia.org/wikipedia/tr/d/d9/Bundesliga_2017_logo.png",      
-                "Uefa Champions League": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo_UEFA_Champions_League.png",
-                "Serie A":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Serie_A_logo_2022.svg/1193px-Serie_A_logo_2022.svg.png",
-                "Tim Cup":"https://classicfootballshirts.co.uk/pub/media/catalog/product/t/i/timcup_finale2019_patch.jpg"
+                "Serie A": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Serie_A_logo_2022.svg/1193px-Serie_A_logo_2022.svg.png",
+                "TIM Cup":"https://c0.klipartz.com/pngpicture/731/603/gratis-png-italia-2015-16-coppa-italia-u-c-sampdoria-atalanta-b-c-ternana-calcio-italia.png",
+                "Uefa Europa League": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Europa_League_2021.svg/2120px-Europa_League_2021.svg.png",
             },
             stats: {
-                "Bundesliga": { matches: 9, starting: 7, goals: 3, assists: 6, yellowCards: 0, yellowRedCards: 0, redCards: 0, team: "Eintracht Frankfurt" },
-                "Uefa Champions League": { matches: 5, starting: 4, goals: 1, assists: 3, yellowCards: 1, yellowRedCards: 0, redCards: 0, team: "Eintracht Frankfurt" },
-                "Serie A": { matches: 5, starting: 5, goals: 4, assists: 1, yellowCards: 0, yellowRedCards: 0, redCards: 0, team: "Atalanta" },
-                "Tim Cup": { matches: 2, starting: 2, goals: 0, assists: 1, yellowCards: 0, yellowRedCards: 0, redCards: 0, team: "Atalanta" },     
+                "Serie A": { matches: 15, starting: 13, goals: 12, assists: 6, yellowCards: 1, yellowRedCards: 0, redCards: 0, team: "Sassuolo" },
+                "TIM Cup": { matches: 4, starting: 3, goals: 1, assists: 1, yellowCards: 1, yellowRedCards: 0, redCards: 0, team: "Sassuolo" },
+                "Uefa Europa League": { matches: 10, starting: 10, goals: 8, assists: 2, yellowCards: 1, yellowRedCards: 0, redCards: 0, team: "Sassuolo" },
             }
         },
         "Sezon 12": {
             leagueLogos: {
+                "Promotion/Relegation": "https://i.hizliresim.com/4wce7io.png",
                 "Tier 2A":"https://i.hizliresim.com/fxzznmk.png",
                 "Uefa Champions League": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo_UEFA_Champions_League.png",
             },
             stats: {
-                "Tier 2A": { matches: 10, starting: 8, goals: 0, assists: 5, yellowCards: 0, yellowRedCards: 0, redCards: 0, team: "Napoli" },
-                "Uefa Champions League": { matches: 7, starting: 6, goals: 1, assists: 6, yellowCards: 0, yellowRedCards: 0, redCards: 0, team: "Napoli" },  
+                "Promotion/Relegation": { matches: 14, starting: 12, goals: 18, assists: 8, yellowCards: 1, yellowRedCards: 0, redCards: 0, team: "Napoli" },
+                "Tier 2A": { matches: 10, starting: 9, goals: 11, assists: 1, yellowCards: 1, yellowRedCards: 0, redCards: 0, team: "Napoli" },
+                "Uefa Champions League": { matches: 6, starting: 6, goals: 9, assists: 2, yellowCards: 2, yellowRedCards: 0, redCards: 1, team: "Napoli" },
             }
         },
         "Sezon 13": {
             leagueLogos: {
-                "Bundesliga": "https://upload.wikimedia.org/wikipedia/tr/d/d9/Bundesliga_2017_logo.png",      
-                "Uefa Champions League": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo_UEFA_Champions_League.png",
+                "Premier League": "https://city-png.b-cdn.net/preview/preview_public/uploads/preview/hd-the-official-premier-league-logo-transparent-background-701751712333741unp10ha2yg.png",
             },
             stats: {
-               "Bundesliga": { matches: 13, starting: 10, goals: 4, assists: 8, yellowCards: 0, yellowRedCards: 0, redCards: 0, team: "Eintracht Frankfurt" },
-                "Uefa Champions League": { matches: 8, starting: 4, goals: 3, assists: 6, yellowCards: 1, yellowRedCards: 0, redCards: 0, team: "Eintracht Frankfurt" },
+                "Premier League": { matches: 8, starting: 7, goals: 3, assists: 4, yellowCards: 0, yellowRedCards: 0, redCards: 0, team: "West Ham United" },
             }
         },
         "Sezon 14": {
             leagueLogos: {
-                "Premier League":"https://city-png.b-cdn.net/preview/preview_public/uploads/preview/hd-the-official-premier-league-logo-transparent-background-701751712333741unp10ha2yg.png",    
+                "Ligue 1": "https://upload.wikimedia.org/wikipedia/commons/4/49/Ligue1_Uber_Eats_logo.png",
+                "Uefa Champions League": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo_UEFA_Champions_League.png",
+                "Premier League": "https://city-png.b-cdn.net/preview/preview_public/uploads/preview/hd-the-official-premier-league-logo-transparent-background-701751712333741unp10ha2yg.png",
+                "Uefa Europa League": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Europa_League_2021.svg/2120px-Europa_League_2021.svg.png",
             },
             stats: {
-               "Premier League": { matches: 0, starting: 0, goals: 0, assists: 0, yellowCards: 0, yellowRedCards: 0, redCards: 0, team: "Manchester City" },
+                "Ligue 1": { matches: 8, starting: 7, goals: 4, assists: 4, yellowCards: 0, yellowRedCards: 0, redCards: 0, team: "Monaco" },
+                "Uefa Champions League": { matches: 8, starting: 8, goals: 8, assists: 2, yellowCards: 0, yellowRedCards: 0, redCards: 0, team: "Monaco" },
+                "Premier League": { matches: 3, starting: 1, goals: 1, assists: 0, yellowCards: 1, yellowRedCards: 0, redCards: 0, team: "Arsenal" },
+                "Uefa Europa League": { matches: 4, starting: 2, goals: 2, assists: 0, yellowCards: 2, yellowRedCards: 0, redCards: 0, team: "Arsenal" },
             }
         },
         "Sezon 15": {
             leagueLogos: {
-                "Division 2":"https://images.seeklogo.com/logo-png/49/1/danish-2nd-division-logo-png_seeklogo-496525.png",
+                "Ligue 1": "https://upload.wikimedia.org/wikipedia/commons/4/49/Ligue1_Uber_Eats_logo.png",
                 "Uefa Champions League": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo_UEFA_Champions_League.png",
+                "Uefa Europa League": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Europa_League_2021.svg/2120px-Europa_League_2021.svg.png",
             },
             stats: {
-               "Division 2": { matches: 6, starting: 0, goals: 2, assists: 1, yellowCards: 0, yellowRedCards: 0, redCards: 0, team: "AFC Ajax" },
-               "Uefa Champions League": { matches: 5, starting: 0, goals: 0, assists: 1, yellowCards: 0, yellowRedCards: 0, redCards: 0, team: "AFC Ajax" },
+                "Ligue 1": { matches: 10, starting: 10, goals: 3, assists: 6, yellowCards: 0, yellowRedCards: 0, redCards: 0, team: "Stade Rennais FC" },
+                "Uefa Champions League": { matches: 6, starting: 6, goals: 7, assists: 5, yellowCards: 0, yellowRedCards: 0, redCards: 0, team: "Stade Rennais FC" },
+                "Uefa Europa League": { matches: 2, starting: 2, goals: 2, assists: 0, yellowCards: 0, yellowRedCards: 0, redCards: 0, team: "Stade Rennais FC" },
             }
         },
         "Sezon 16": {
             leagueLogos: {
-                "La Liga 2": "https://www.gamesatlas.com/images/football/leagues/la-liga-2.png",
-                "Uefa Europa League":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Europa_League_2021.svg/2120px-Europa_League_2021.svg.png"
+                "Premier League": "https://city-png.b-cdn.net/preview/preview_public/uploads/preview/hd-the-official-premier-league-logo-transparent-background-701751712333741unp10ha2yg.png",
+                "La Liga":"https://brandlogos.net/wp-content/uploads/2023/07/la_liga-logo_brandlogos.net_e6gnt.png",
+                "Uefa Champions League": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo_UEFA_Champions_League.png",
+                
             },
             stats: {
-                "La Liga 2": { matches: 8, starting: 4, goals: 0, assists: 0, yellowCards: 0, yellowRedCards: 0, redCards: 0, team: "FC Andorra" },
-                "Uefa Europa League": { matches: 6, starting: 6, goals: 2, assists: 1, yellowCards: 0, yellowRedCards: 0, redCards: 0, team: "FC Andorra" },
+                "Premier League": { matches: 10, starting: 10, goals: 5, assists: 9, yellowCards: 1, yellowRedCards: 0, redCards: 0, team: "Arsenal" },
+                "La Liga": { matches: 10, starting: 10, goals: 17, assists: 2, yellowCards: 1, yellowRedCards: 0, redCards: 0, team: "Real Sociedad" },
+                "Uefa Champions League": { matches: 7, starting: 7, goals: 3, assists: 14, yellowCards: 1, yellowRedCards: 0, redCards: 0, team: "Real Sociedad" },
             }
         },
         "Sezon 17": {
             leagueLogos: {
-                "Division B -G1": "https://i.hizliresim.com/f3bnkpg.png",
-                "Division B -G2":"https://i.hizliresim.com/f3bnkpg.png",
-                "Resa Cup":"https://i.hizliresim.com/n24akwo.png",
-                "Intermediate League":"https://i.hizliresim.com/3ztyynv.png",
-                "Uefa Champions League": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo_UEFA_Champions_League.png",
+                "Expansion League": "https://i.hizliresim.com/hxqcb04.png",
             },
             stats: {
-                "Division B -G1": { matches: 5, starting: 5, goals: 2, assists: 2, yellowCards: 0, yellowRedCards: 0, redCards: 0, team: "Galatasaray"},
-                "Division B -G2": { matches: 6, starting: 5 , goals: 4, assists: 5, yellowCards: 0, yellowRedCards: 0, redCards: 0, team: "RB Leipzig" },
-                "Resa Cup": { matches: 6, starting: 6, goals: 5, assists: 3, yellowCards: 0, yellowRedCards: 0, redCards: 0, team: "RB Leipzig" },
-                "Intermediate League": { matches: 7, starting: 7, goals: 4, assists: 6, yellowCards: 0, yellowRedCards: 0, redCards: 0, team: "Borussia Dortmund" },
-                "Uefa Champions League": { matches: 6, starting: 6, goals: 5, assists: 2, yellowCards: 1, yellowRedCards: 0, redCards: 0, team: "Borussia Dortmund" },
+                "Expansion League": { matches: 15, starting: 15, goals: 16, assists: 7, yellowCards: 1, yellowRedCards: 0, redCards: 0, team: "Olympique Lyonnais" },
             }
         },
         "Sezon 18": {
             leagueLogos: {
-                "Division A": "https://i.hizliresim.com/qdxxp0u.png",   
-                "Resa Cup":"https://i.hizliresim.com/n24akwo.png",
-                "Uefa Champions League": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo_UEFA_Champions_League.png",
+                "Division 1": "https://i.hizliresim.com/gljidtn.png",
             },
             stats: {
-                "Division A": { matches: 15, starting: 15, goals: 9, assists: 9, yellowCards: 1, yellowRedCards: 0, redCards: 0, team: "Juventus"},
-                "Resa Cup": { matches: 5, starting: 5, goals: 3, assists: 5, yellowCards: 0, yellowRedCards: 0, redCards: 0, team: "Juventus"},
-                "Uefa Champions League": { matches: 6, starting: 6, goals: 6, assists: 6, yellowCards: 1, yellowRedCards: 0, redCards: 0, team: "Juventus" },
+                "Division 1": { matches: 3, starting: 1, goals: 1, assists: 1, yellowCards: 3, yellowRedCards: 0, redCards: 0, team: "Olympique Lyonnais" },
             }
         },
         "Sezon 19": {
             leagueLogos: {
-                "Serie A":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Serie_A_logo_2022.svg/1193px-Serie_A_logo_2022.svg.png",
-                "Tim Cup":"https://classicfootballshirts.co.uk/pub/media/catalog/product/t/i/timcup_finale2019_patch.jpg",
-                "Uefa Champions League": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo_UEFA_Champions_League.png",
-                "Uefa Europa League":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Europa_League_2021.svg/2120px-Europa_League_2021.svg.png"
+                "Serie A": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Serie_A_logo_2022.svg/1193px-Serie_A_logo_2022.svg.png",
+                "Uefa Europa League": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Europa_League_2021.svg/2120px-Europa_League_2021.svg.png",
             },
             stats: {
-                "Serie A": { matches: 15, starting: 15, goals: 13, assists: 2, yellowCards: 1, yellowRedCards: 0, redCards: 0, team: "SS Lazio"},
-                "Uefa Champions League": { matches: 5, starting: 5, goals: 1, assists: 0, yellowCards: 0, yellowRedCards: 0, redCards: 0, team: "SS Lazio" },
-                "Uefa Europa League": { matches: 8, starting: 8, goals: 5, assists: 5, yellowCards: 0, yellowRedCards: 0, redCards: 0, team: "SS Lazio" },
+                "Serie A": { matches: 15, starting: 13, goals: 16, assists: 5, yellowCards: 2, yellowRedCards: 0, redCards: 0, team: "Lazio" },
+                "Uefa Europa League": { matches: 10, starting: 10, goals: 10, assists: 3, yellowCards: 0, yellowRedCards: 0, redCards: 0, team: "Lazio" },
             }
         },
+       
 
     },
     transferHistory: [
         {
-            season: "Sezon 7",
-            type: "Transfer",
-            previousClub: {
-                country: "",
-                name: "Takımsız",
-                league: "",
-                logo: "https://www.fifacm.com/content/media/imgs/fifa22/teams/256/l111592.png"
-            },
-            currentClub: {
-                country: "Custom",
-                name: "Vidigal Tigers",
-                league: "Division B",
-                logo: "https://i.hizliresim.com/3rbz65n.png"
-            }
-        },
-        {
             season: "Sezon 8",
             type: "Transfer",
             previousClub: {
@@ -206,34 +182,18 @@ const playerData = {
         },
         {
             season: "Sezon 8",
-            type: "Release",
+            type: "Transfer",
             previousClub: {
                 country: "İngiltere",
                 name: "Chelsea",
                 league: "Premier League",
                 logo: "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/1200px-Chelsea_FC.svg.png"
-            },
-            currentClub: {
-                country: "",
-                name: "Takımsız",
-                league: "",
-                logo: "https://www.fifacm.com/content/media/imgs/fifa22/teams/256/l111592.png"
-            }
-        },
-        {
-            season: "Sezon 8",
-            type: "Transfer",
-            previousClub: {
-                country: "",
-                name: "Takımsız",
-                league: "",
-                logo: "https://www.fifacm.com/content/media/imgs/fifa22/teams/256/l111592.png"
             },
             currentClub: {
                 country: "Almanya",
-                name: "Schalke",
-                league: "Bundesliga",
-                logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/FC_Schalke_04_Logo.svg/2048px-FC_Schalke_04_Logo.svg.png"
+                name: "Bundesliga",
+                league: "Eintracht Frankfurt",
+                logo: "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/1200px-Chelsea_FC.svg.png"
             }
         },
         {
@@ -246,58 +206,26 @@ const playerData = {
                 logo: "https://www.fifacm.com/content/media/imgs/fifa22/teams/256/l111592.png"
             },
             currentClub: {
-                country: "İspanya",
-                name: "Getafe",
-                league: "LaLiga 2",
-                logo: "https://upload.wikimedia.org/wikipedia/commons/b/b9/Getafe_CF_Logo.png"
-            }
-        },
-        {
-            season: "Sezon 11",
-            type: "Transfer",
-            previousClub: {
-                country: "",
-                name: "Takımsız",
-                league: "",
-                logo: "https://www.fifacm.com/content/media/imgs/fifa22/teams/256/l111592.png"
-            },
-            currentClub: {
-                country: "İtalya",
-                name: "Atalanta",
-                league: "Serie A",
-                logo: "https://w7.pngwing.com/pngs/770/754/png-transparent-atalanta-thumbnail.png"
-            }
-        },
-        {
-            season: "Sezon 11",
-            type: "Release",
-            previousClub: {
-                country: "İtalya",
-                name: "Atalanta",
-                league: "Serie A",
-                logo: "https://w7.pngwing.com/pngs/770/754/png-transparent-atalanta-thumbnail.png"
-            },
-            currentClub: {
-                country: "",
-                name: "Takımsız",
-                league: "",
-                logo: "https://www.fifacm.com/content/media/imgs/fifa22/teams/256/l111592.png"
-            }
-        },
-        {
-            season: "Sezon 11",
-            type: "Transfer",
-            previousClub: {
-                country: "",
-                name: "Takımsız",
-                league: "",
-                logo: "https://www.fifacm.com/content/media/imgs/fifa22/teams/256/l111592.png"
-            },
-            currentClub: {
                 country: "Almanya",
-                name: "Eintracht Frankfurt",
-                league: "Bundesliga",
-                logo: "https://upload.wikimedia.org/wikipedia/en/thumb/7/7e/Eintracht_Frankfurt_crest.svg/1200px-Eintracht_Frankfurt_crest.svg.png"
+                name: "Bundesliga",
+                league: "TSG Hoffenheim",
+                logo: "https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo_TSG_Hoffenheim.png"
+            }
+        },
+        {
+            season: "Sezon 11",
+            type: "Transfer",
+            previousClub: {
+                country: "",
+                name: "Takımsız",
+                league: "",
+                logo: "https://www.fifacm.com/content/media/imgs/fifa22/teams/256/l111592.png"
+            },
+            currentClub: {
+                country: "İtalya",
+                name: "Serie A",
+                league: "Sassuolo",
+                logo: "https://upload.wikimedia.org/wikipedia/sco/thumb/1/1c/US_Sassuolo_Calcio_logo.svg/1200px-US_Sassuolo_Calcio_logo.svg.png"
             }
         },
         {
@@ -311,8 +239,8 @@ const playerData = {
             },
             currentClub: {
                 country: "İtalya",
-                name: "Napoli",
-                league: "Tier 2A",
+                name: "Promotion/Relegation",
+                league: "Napoli",
                 logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/SSC_Napoli_2024_%28deep_blue_navy%29.svg/1200px-SSC_Napoli_2024_%28deep_blue_navy%29.svg.png"
             }
         },
@@ -326,10 +254,10 @@ const playerData = {
                 logo: "https://www.fifacm.com/content/media/imgs/fifa22/teams/256/l111592.png"
             },
             currentClub: {
-                country: "Almanya",
-                name: "Eintracht Frankfurt",
-                league: "Bundesliga",
-                logo: "https://upload.wikimedia.org/wikipedia/en/thumb/7/7e/Eintracht_Frankfurt_crest.svg/1200px-Eintracht_Frankfurt_crest.svg.png"
+                country: "İngiltere",
+                name: "West Ham United",
+                league: "Premier League",
+                logo: "https://upload.wikimedia.org/wikipedia/tr/f/fc/Westham_logo.png"
             }
         },
         {
@@ -343,25 +271,42 @@ const playerData = {
             },
             currentClub: {
                 country: "İngiltere",
-                name: "Manchester City",
+                name: "Arsenal",
                 league: "Premier League",
-                logo: "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/1200px-Manchester_City_FC_badge.svg.png"
+                logo: "https://upload.wikimedia.org/wikipedia/tr/9/92/Arsenal_Football_Club.png"
+            }
+        },
+
+        {
+            season: "Sezon 14",
+            type: "Transfer",
+            previousClub: {
+                country: "İngiltere",
+                name: "Arsenal",
+                league: "Premier League",
+                logo: "https://upload.wikimedia.org/wikipedia/tr/9/92/Arsenal_Football_Club.png"
+            },
+            currentClub: {
+                country: "Fransa",
+                name: "Monaco",
+                league: "Ligue 1",
+                logo: "https://images.seeklogo.com/logo-png/30/2/as-monaco-fc-logo-png_seeklogo-301079.png"
             }
         },
         {
             season: "Sezon 15",
             type: "Transfer",
             previousClub: {
-                country: "",
-                name: "Takımsız",
-                league: "",
-                logo: "https://www.fifacm.com/content/media/imgs/fifa22/teams/256/l111592.png"
+                country: "Fransa",
+                name: "Monaco",
+                league: "Ligue 1",
+                logo: "https://images.seeklogo.com/logo-png/30/2/as-monaco-fc-logo-png_seeklogo-301079.png"
             },
             currentClub: {
-                country: "Hollanda",
-                name: "AFC Ajax",
-                league: "Division 2",
-                logo: "https://upload.wikimedia.org/wikipedia/tr/6/68/AFC_Ajax_logo.png"
+                country: "Fransa",
+                name: "Stade Rennais FC",
+                league: "Ligue 1",
+                logo: "https://upload.wikimedia.org/wikipedia/tr/3/32/Stade-Rennais.png"
             }
         },
         {
@@ -374,10 +319,26 @@ const playerData = {
                 logo: "https://www.fifacm.com/content/media/imgs/fifa22/teams/256/l111592.png"
             },
             currentClub: {
+                country: "İngiltere",
+                name: "Arsenal",
+                league: "Premier League",
+                logo: "https://upload.wikimedia.org/wikipedia/tr/9/92/Arsenal_Football_Club.png"
+            }
+        },
+        {
+            season: "Sezon 16",
+            type: "Transfer",
+            previousClub: {
+                country: "İngiltere",
+                name: "Arsenal",
+                league: "Premier League",
+                logo: "https://upload.wikimedia.org/wikipedia/tr/9/92/Arsenal_Football_Club.png"
+            },
+            currentClub: {
                 country: "İspanya",
-                name: "FC Andorra",
-                league: "La Liga 2",
-                logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/FC_Andorra_logo_team.png/500px-FC_Andorra_logo_team.png"
+                name: "Real Sociedad",
+                league: "La Liga",
+                logo: "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Real_Sociedad_logo.svg/1200px-Real_Sociedad_logo.svg.png"
             }
         },
         {
@@ -390,42 +351,10 @@ const playerData = {
                 logo: "https://www.fifacm.com/content/media/imgs/fifa22/teams/256/l111592.png"
             },
             currentClub: {
-                country: "Türkiye",
-                name: "Galatasaray",
-                league: "Division B -G1",
-                logo: "https://images.seeklogo.com/logo-png/61/1/galatasaray-5-yildizli-concept-logo-png_seeklogo-617686.png"
-            }
-        },
-        {
-            season: "Sezon 17",
-            type: "Transfer",
-            previousClub: {
-                country: "Türkiye",
-                name: "Galatasaray",
-                league: "Division B -G1",
-                logo: "https://images.seeklogo.com/logo-png/61/1/galatasaray-5-yildizli-concept-logo-png_seeklogo-617686.png"
-            },
-            currentClub: {
-                country: "Almanya",
-                name: "RB Leipzig",
-                league: "Division B -G2",
-                logo: "https://upload.wikimedia.org/wikipedia/tr/f/fd/RB_Leipzig.png"
-            }
-        },
-        {
-            season: "Sezon 17",
-            type: "Transfer",
-            previousClub: {
-                country: "Almanya",
-                name: "RB Leipzig",
-                league: "Division B -G2",
-                logo: "https://upload.wikimedia.org/wikipedia/tr/f/fd/RB_Leipzig.png"
-            },
-            currentClub: {
-                country: "Almanya",
-                name: "Borussia Dortmund",
-                league: "Intermediate League",
-                logo: "https://upload.wikimedia.org/wikipedia/commons/7/74/Borussia_Dortmund.png"
+                country: "Fransa",
+                name: "Olympique Lyonnais",
+                league: "Expansion League",
+                logo: "https://frenchfootballdaily.com/wp-content/uploads/2011/05/Olympique-Lyon-logo-274x300.jpg"
             }
         },
         {
@@ -438,64 +367,49 @@ const playerData = {
                 logo: "https://www.fifacm.com/content/media/imgs/fifa22/teams/256/l111592.png"
             },
             currentClub: {
-                country: "İtalya",
-                name: "Juventus",
-                league: "Division A",
-                logo: "https://upload.wikimedia.org/wikipedia/commons/5/51/Juventus_FC_2017_logo.png"
-            }
-        },
-        {
-            season: "Sezon 19",
-            type: "Release",
-            previousClub: {
-                country: "İtalya",
-                name: "Juventus",
-                league: "Serie A",
-                logo: "https://upload.wikimedia.org/wikipedia/commons/5/51/Juventus_FC_2017_logo.png"
-            },
-            currentClub: {
-                country: "",
-                name: "Takımsız",
-                league: "",
-                logo: "https://www.fifacm.com/content/media/imgs/fifa22/teams/256/l111592.png"
+                country: "Fransa",
+                name: "Olympique Lyonnais",
+                league: "Division 1",
+                logo: "https://frenchfootballdaily.com/wp-content/uploads/2011/05/Olympique-Lyon-logo-274x300.jpg"
             }
         },
         {
             season: "Sezon 19",
             type: "Transfer",
             previousClub: {
-                country: "İtalya",
-                name: "Juventus",
-                league: "Serie A",
-                logo: "https://upload.wikimedia.org/wikipedia/commons/5/51/Juventus_FC_2017_logo.png"
+                country: "",
+                name: "Takımsız",
+                league: "",
+                logo: "https://www.fifacm.com/content/media/imgs/fifa22/teams/256/l111592.png"
             },
             currentClub: {
                 country: "İtalya",
-                name: "SS Lazio",
+                name: "Lazio",
                 league: "Serie A",
                 logo: "https://upload.wikimedia.org/wikipedia/tr/2/22/Sslazio.png"
             }
         },
+       
+       
        
     ]
 };
 
 // Stats için takım logoları
 const statsTeamLogos = {
-    "schalke":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/FC_Schalke_04_Logo.svg/2048px-FC_Schalke_04_Logo.svg.png",
     "Chelsea":"https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/1200px-Chelsea_FC.svg.png",
-    "Getafe":"https://upload.wikimedia.org/wikipedia/commons/b/b9/Getafe_CF_Logo.png", 
     "Eintracht Frankfurt":"https://upload.wikimedia.org/wikipedia/en/thumb/7/7e/Eintracht_Frankfurt_crest.svg/1200px-Eintracht_Frankfurt_crest.svg.png",
-    "Atalanta":"https://w7.pngwing.com/pngs/770/754/png-transparent-atalanta-thumbnail.png",
+    "TSG Hoffenheim":"https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo_TSG_Hoffenheim.png",
+    "Sassuolo":"https://upload.wikimedia.org/wikipedia/sco/thumb/1/1c/US_Sassuolo_Calcio_logo.svg/1200px-US_Sassuolo_Calcio_logo.svg.png",
     "Napoli":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/SSC_Napoli_2024_%28deep_blue_navy%29.svg/1200px-SSC_Napoli_2024_%28deep_blue_navy%29.svg.png",
-    "Manchester City":"https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/1200px-Manchester_City_FC_badge.svg.png",
-    "AFC Ajax":"https://upload.wikimedia.org/wikipedia/tr/6/68/AFC_Ajax_logo.png",
-    "FC Andorra":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/FC_Andorra_logo_team.png/500px-FC_Andorra_logo_team.png",
-    "Galatasaray":"https://images.seeklogo.com/logo-png/61/1/galatasaray-5-yildizli-concept-logo-png_seeklogo-617686.png",
-    "RB Leipzig":"https://upload.wikimedia.org/wikipedia/tr/f/fd/RB_Leipzig.png",
-    "Borussia Dortmund":"https://upload.wikimedia.org/wikipedia/commons/7/74/Borussia_Dortmund.png",
-    "Juventus":"https://upload.wikimedia.org/wikipedia/commons/5/51/Juventus_FC_2017_logo.png",
-    "SS Lazio":"https://upload.wikimedia.org/wikipedia/tr/2/22/Sslazio.png",
+    "West Ham United":"https://upload.wikimedia.org/wikipedia/tr/f/fc/Westham_logo.png",
+    "Arsenal":"https://upload.wikimedia.org/wikipedia/tr/9/92/Arsenal_Football_Club.png",
+    "Monaco":"https://images.seeklogo.com/logo-png/30/2/as-monaco-fc-logo-png_seeklogo-301079.png",
+    "Stade Rennais FC":"https://upload.wikimedia.org/wikipedia/tr/3/32/Stade-Rennais.png",
+    "Real Sociedad":"https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Real_Sociedad_logo.svg/1200px-Real_Sociedad_logo.svg.png",
+    "Olympique Lyonnais":"https://frenchfootballdaily.com/wp-content/uploads/2011/05/Olympique-Lyon-logo-274x300.jpg",
+    "Lazio":"https://upload.wikimedia.org/wikipedia/tr/2/22/Sslazio.png",
+
 
 };
 
