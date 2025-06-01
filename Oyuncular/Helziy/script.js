@@ -30,10 +30,10 @@ const playerData = {
         ]
     },
     awards: [
-        { name: "İspanya LaLiga2", image: "https://tmssl.akamaized.net//images/erfolge/medium/878.png", seasons: ["Sezon 9( CD Tenerife)"] },
-        { name: "Premier League", image: "https://i.hizliresim.com/i2q1pet.png", seasons: ["Sezon 11(Liverpool)"] },
-        { name: "Super League", image: "https://upload.wikimedia.org/wikipedia/commons/a/a7/South_African_Premiership_trophy.png", seasons: ["Sezon 12(Bayern M)"] },
-        { name: "Promotion Division", image: "https://clipart-library.com/img/1260244.png", seasons: ["Sezon 12(Bayern M)"] },
+        { name: "İspanya LaLiga2", image: "https://tmssl.akamaized.net//images/erfolge/medium/878.png", seasons: ["S9 CD Tenerife"] },
+        { name: "Premier League", image: "https://i.hizliresim.com/i2q1pet.png", seasons: ["S11 Liverpool"] },
+        { name: "Super League", image: "https://upload.wikimedia.org/wikipedia/commons/a/a7/South_African_Premiership_trophy.png", seasons: ["S12 Bayern M"] },
+        { name: "Promotion Division", image: "https://clipart-library.com/img/1260244.png", seasons: ["S12 Bayern M"] },
     ],
     seasons: {
         "Sezon 10": {

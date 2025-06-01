@@ -30,8 +30,13 @@ const playerData = {
             
         ]
     },
+
     awards: [
         { name: "İspanya LaLiga2", image: "https://tmssl.akamaized.net//images/erfolge/medium/878.png", seasons: ["S10 Getafe"] },
+        { name: "Serie B", image: "https://i.pinimg.com/474x/b3/1b/e9/b31be98fe8473d45649341d9aa0cfb3c.jpg", seasons: ["S9 Spezia Calcio"] },
+        { name: "Tier 3", image: "https://clipart-library.com/img/1260244.png", seasons: ["S17 FC Sherif Tiraspol"] },
+
+
     
     ],
     seasons: {

@@ -34,7 +34,7 @@ const playerData = {
         ]
     },
     awards: [
-        { name: "İspanya LaLiga2", image: "https://tmssl.akamaized.net//images/erfolge/medium/878.png", seasons: ["Sezon 10(Getafe)"] },
+        { name: "İspanya LaLiga2", image: "https://tmssl.akamaized.net//images/erfolge/medium/878.png", seasons: ["S10 Getafe"] },
         { name: "DFB-Pokal", image: "https://upload.wikimedia.org/wikipedia/commons/4/40/DFB-Pokal_trophy.jpg", seasons: ["S13 Bayern Munich"] },
         { name: "Bundesliga", image: "https://w7.pngwing.com/pngs/496/993/png-transparent-borussia-dortmund-bundesliga-meisterschale-dfb-pokal-deutsche-fußballmeisterschaft-bundesliga-sport-auto-part-metal.png", seasons: ["S13 Bayern Munich"] },
         { name:"Uefa Europa League", image: "https://i.hizliresim.com/n6m4g4u.png", seasons: ["S13 Bayern Munich"] },
