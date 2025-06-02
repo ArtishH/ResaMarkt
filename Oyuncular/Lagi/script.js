@@ -1,7 +1,7 @@
 const playerData = {
     name: "Hjaltee",
     image: "https://i.hizliresim.com/3nfqp6a.png",
-    position: "Kaleci",
+    position: "GK",
     nationality: "Danimarka",
     flag: "https://st3.depositphotos.com/1381835/13472/v/600/depositphotos_134724996-stock-video-flag-of-denmark.jpg",
     currentTeam: {
