@@ -36,7 +36,7 @@ const playerData = {
         { name: "Fa Cup", image: "https://www.kindpng.com/picc/m/419-4195027_820-x-1222-fa-cup-trophy-png-transparent.png", seasons: ["S15 Manchester City"] },
         { name: "Resa Cup", image: "https://e7.pngegg.com/pngimages/388/563/png-clipart-trophy-golden-cup-gold-trophy-metal-digital-image.png", seasons: ["S18 Juventus"] },
         { name:"Şampiyonlar Ligi", image: "https://i.pinimg.com/736x/02/82/80/0282805dcfe401855ad998b80e95a549.jpg", seasons: ["S18 Juventus)"] },
-        { name: "Uefa Super Cup", image: "https://i.pinimg.com/564x/23/30/74/23307464e47f1581246d6cf6679d9cea.jpg", seasons: ["S18 Juventus"] },
+        { name: "Uefa Super Cup", image: "https://sortitoutsi.b-cdn.net/uploads/media_2023/drtIPSTebsokM5cJAK13NWWs5CcW3cHLNu4JiO3a.png", seasons: ["S18 Juventus"] },
         { name: "Serie A", image: "https://i.pinimg.com/736x/a7/f0/ca/a7f0cacbc0773d903f7812852f94c966.jpg", seasons: ["S19 Lazio"] },
     ],
     seasons: {
