@@ -721,7 +721,7 @@ const gridStats = [
     { labelKey: "Maç", id: "matches", icon: "https://w7.pngwing.com/pngs/709/226/png-transparent-game-sport-football-tactic-soccer-field-template-angle-text-rectangle-thumbnail.png" },
     { labelKey: "Gol", id: "goals", icon: "https://cdn-icons-png.flaticon.com/512/919/919462.png" },
     { labelKey: "Asist", id: "assists", icon: "https://cdn-icons-png.flaticon.com/512/98/98611.png" },
-    { labelKey: "Clean Sheets", id: "clean-sheets", icon: "https://cdn-icons-png.flaticon.com/512/815/815809.png" } // Added clean sheets icon
+    { labelKey: "Clean Sheets", id: "clean-sheets", icon: "https://www.shutterstock.com/image-vector/football-goalkeeper-glove-ball-icon-600nw-2529191625.jpg" } 
 ];
 gridStats.forEach(stat => {
     const item = document.createElement("div");
