@@ -2,7 +2,7 @@ const playerData = {
     name: "Hjaltee",
     image: "https://i.hizliresim.com/3nfqp6a.png",
     position: "GK",
-    nationality: "Danimarka",
+    nationality: "Danmark",
     flag: "https://st3.depositphotos.com/1381835/13472/v/600/depositphotos_134724996-stock-video-flag-of-denmark.jpg",
     currentTeam: {
         name: "Borussia Dortmund",
@@ -452,7 +452,7 @@ function applyTranslations() {
         }
 
         if (currentLang === "da") {
-            // Split by " (" to separate name and league info
+           
             const parts = originalText.split(" (");
             if (parts.length > 1) {
                 let countryAndLeague = parts[1].slice(0, -1); // Remove trailing ')'
@@ -466,7 +466,7 @@ function applyTranslations() {
                 if (country === "Belçika") translatedCountry = "Belgien";
                 if (country === "İtalya") translatedCountry = "Italien";
 
-                // Translate "Takımsız" if applicable
+                // Translate 
                 if (clubName === translations["tr"]["Takımsız"]) {
                     info.textContent = `(${translations[currentLang]["Takımsız"]})`;
                 } else {
@@ -478,11 +478,11 @@ function applyTranslations() {
         }
     });
 
-     // Player Nationality
+    
      document.getElementById("player-nationality").textContent = translations[currentLang][playerData.nationality] || playerData.nationality;
      document.getElementById("player-position").textContent = translations[currentLang][playerData.position] || playerData.position;
 
-     // Update alt text for flags
+     
      document.getElementById("player-flag").alt = `${translations[currentLang]["Uyruk Bayrağı"]}`;
 }
 
@@ -515,8 +515,8 @@ const marketChart = new Chart(ctx, {
     data: {
         labels: playerData.marketValue.history.map(h => h.date),
         datasets: [{
-            label: "Piyasa Değeri", // Label updated, no unit here
-            data: playerData.marketValue.history.map(h => h.value), // Use raw value here
+            label: "Piyasa Değeri", 
+            data: playerData.marketValue.history.map(h => h.value), 
             borderColor: "#60a5fa",
             backgroundColor: "rgba(96, 165, 250, 0.25)",
             fill: true,
@@ -639,7 +639,7 @@ function getAllSeasonsStats() {
         starting: 0,
         goals: 0,
         assists: 0,
-        cleanSheets: 0, // Added cleanSheets
+        cleanSheets: 0, 
         yellowCards: 0,
         yellowRedCards: 0,
         redCards: 0,
