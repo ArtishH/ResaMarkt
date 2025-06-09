@@ -7,15 +7,31 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-900 min-h-screen flex flex-col items-center justify-center text-white">
+<body class="bg-gray-900 min-h-screen flex flex-col items-center text-white">
     <header class="w-full max-w-6xl p-4">
         <h1 class="text-5xl font-extrabold text-center text-cyan-400 tracking-wider">RESAMARKT</h1>
-        <div class="mt-4 flex justify-center">
+        
+        <nav class="mt-6 flex justify-center space-x-8">
+            <button id="playersSectionBtn" class="text-xl font-semibold text-gray-200 hover:text-cyan-400 transition-colors duration-300">Oyuncular Bölümü</button>
+            <a href="PiyasaDeğeri bilme/index.html" class="text-xl font-semibold text-gray-200 hover:text-cyan-400 transition-colors duration-300">Piyasa Değeri Bilme</a>
+            <a href="oyuncu karşılaştırma/index.html" class="text-xl font-semibold text-gray-200 hover:text-cyan-400 transition-colors duration-300">Oyuncu karşılaştırma</a>
+            <button id="infoSectionBtn" class="text-xl font-semibold text-gray-200 hover:text-cyan-400 transition-colors duration-300">Bilgilendirme</button>
+        </nav>
+
+        <div id="infoText" class="mt-6 p-6 bg-gray-800 rounded-lg shadow-lg text-gray-200 text-lg leading-relaxed hidden">
+            <p>Eklenmesini istediğiniz oyuncular için lütfen bu formu doldurun.</p>
+            <p class="mt-4">  https://docs.google.com/forms/d/e/1FAIpQLSeQ0KmpMPJnoNWlmfdl-G2kz5cR2qVrYkpVCy-ECKZpvOapGA/viewform?usp=sharing&ouid=111586694578518542359  </p>
+            <p class="mt-4">Oyuncular veya site ilgili bir hata varsa lütfen bu formu doldurun.</p>
+            <p class="mt-4"> https://docs.google.com/forms/d/e/1FAIpQLSeAMBGH3QudiFP_5Id-9wqEg7VoRPX0mis0E19bXqRl2H0TLw/viewform?usp=sharing&ouid=111586694578518542359 </p>
+        </div>
+
+        <div class="mt-8 flex justify-center" id="searchSection">
             <input type="text" id="searchInput" placeholder="Oyuncu ara..." class="w-full max-w-md p-3 rounded-l-md bg-gray-800 text-white border-none focus:outline-none focus:ring-2 focus:ring-cyan-400">
             <button onclick="searchPlayers()" class="p-3 bg-cyan-400 text-gray-900 rounded-r-md hover:bg-cyan-500 font-bold">Ara</button>
         </div>
     </header>
-    <main class="w-full max-w-6xl p-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-12 justify-items-center">
+    
+    <main id="playerCardsSection" class="w-full max-w-6xl p-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-12 justify-items-center">
         <a href="Oyuncular/artish/index.html" class="fifa-card">
             <img src="https://i.hizliresim.com/sa7m61t.png" >
             <div class="player-info">
@@ -23,13 +39,13 @@
             </div>
         </a>
         
-          <a href="Oyuncular/Helziy/index.html" class="fifa-card">
-              <img src="https://i.hizliresim.com/prb757u.png" >
-              <div class="player-info">
-                  <h2 class="player-name">Helziy</h2>
-              </div>
-          </a>
-          <a href="Oyuncular/Ahmet/index.html" class="fifa-card">
+        <a href="Oyuncular/Helziy/index.html" class="fifa-card">
+            <img src="https://i.hizliresim.com/prb757u.png" >
+            <div class="player-info">
+                <h2 class="player-name">Helziy</h2>
+            </div>
+        </a>
+        <a href="Oyuncular/Ahmet/index.html" class="fifa-card">
             <img src="https://i.hizliresim.com/rroolxd.png" >
             <div class="player-info">
                 <h2 class="player-name">babatopcuu</h2>
@@ -71,10 +87,31 @@
                 <h2 class="player-name">Lagi</h2>
             </div>
         </a>
-       
-        
-        
-        
+        <a href="Oyuncular/evil/index.html" class="fifa-card">
+            <img src="https://i.hizliresim.com/dcnjcv4.png" >
+            <div class="player-info">
+                <h2 class="player-name">evil33pro</h2>
+            </div>
+            
+        </a>
+        <a href="Oyuncular/Burak/index.html" class="fifa-card">
+            <img src="https://i.hizliresim.com/dxc9akw.png" >
+            <div class="player-info">
+                <h2 class="player-name">frieztaa</h2>
+            </div>
+        </a>
+        <a href="Oyuncular/Yahya/index.html" class="fifa-card">
+            <img src="https://i.hizliresim.com/fs2ctkh.png" >
+            <div class="player-info">
+                <h2 class="player-name">Yhyatic</h2>
+            </div>
+        </a>
+        <a href="Oyuncular/Memo/index.html" class="fifa-card">
+            <img src="https://i.hizliresim.com/4pk9hvw.png" >
+            <div class="player-info">
+                <h2 class="player-name">Memorientes</h2>
+            </div>
+        </a>
     </main>
     <script src="script.js"></script>
 </body>

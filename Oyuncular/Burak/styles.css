@@ -10,6 +10,9 @@ body {
     position: relative;
 }
 
+/* Dark Mode Button Styles (Kaldırıldı) */
+
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -81,6 +84,8 @@ body {
     height: 100%;
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     object-fit: cover;
+    border: 3px solid #3b82f6;
+    box-shadow: 0 0 15px rgba(59, 130, 246, 0.5);
 }
 
 .player-info h1 {
@@ -772,3 +777,4 @@ body {
 .transfer-header .transfer-type {
     min-width: 100px;
 }
+

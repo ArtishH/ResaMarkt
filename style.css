@@ -1,3 +1,7 @@
+body {
+    font-family: 'Arial', sans-serif; 
+}
+
 .fifa-card {
     position: relative;
     width: 320px;
@@ -8,6 +12,7 @@
     overflow: hidden;
     transition: transform 0.3s, box-shadow 0.3s;
     box-shadow: 0 5px 15px rgba(0, 183, 235, 0.4);
+    display: block; 
 }
 .fifa-card:hover {
     transform: scale(1.05);
@@ -31,4 +36,47 @@
     text-transform: uppercase;
     color: #00b7eb;
     letter-spacing: 1px;
+}
+
+
+nav button,
+nav a {
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-color: rgba(0, 183, 235, 0.1); 
+    border: 1px solid transparent;
+}
+
+nav button:hover,
+nav a:hover {
+    background-color: rgba(0, 183, 235, 0.3);
+    border: 1px solid #00b7eb;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    margin-bottom: 2rem; 
+}
+
+main {
+    padding-top: 2rem; 
+}
+
+#infoText {
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    background-color: #1e293b; 
+    border: 1px solid #00b7eb;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 183, 235, 0.2);
+    max-width: 6xl;
+    width: 100%;
+    text-align: center;
 }

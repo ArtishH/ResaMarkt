@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oyuncu İstatistikleri</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="flex flex-col min-h-screen">
+    <header class="bg-gradient-to-r from-blue-800 to-gray-900 p-5 shadow-2xl">
+        <a href="../index.html" class="block text-center no-underline"> <h1 class="text-4xl font-extrabold text-white tracking-wider">Oyuncu Karşılaştırma</h1>
+        </a>
+    </header>
+
+    <main class="flex flex-1 p-6 gap-6 flex-col md:flex-row">
+        <aside class="w-full md:w-1/4 bg-gray-900 rounded-xl shadow-2xl p-5 flex flex-col items-center border border-gray-700">
+            <h2 class="text-3xl font-bold text-blue-400 mb-6">Oyuncular</h2>
+            <input type="text" id="search-input" placeholder="Oyuncu Ara..."
+                   class="w-full p-3 mb-4 bg-gray-700 text-white rounded-lg border border-gray-600 focus:outline-none focus:border-blue-500 transition-colors duration-200">
+
+            <div class="w-full mb-6 flex flex-col gap-3">
+                <button id="sort-button"
+                        class="w-full py-2 px-4 bg-gradient-to-r from-green-600 to-green-800 hover:from-green-700 hover:to-green-900
+                               text-white font-bold text-lg rounded-lg shadow-md
+                               transition-all duration-300 ease-in-out transform hover:scale-105">
+                    Sırala: Varsayılan
+                </button>
+                <button id="reset-sort-button"
+                        class="w-full py-2 px-4 bg-gradient-to-r from-red-600 to-red-800 hover:from-red-700 hover:to-red-900
+                               text-white font-bold text-lg rounded-lg shadow-md
+                               transition-all duration-300 ease-in-out transform hover:scale-105 hidden">
+                    Sıralamayı Sıfırla
+                </button>
+            </div>
+
+            <div id="player-list" class="w-full scrollable-list flex-1 mb-6">
+            </div>
+            <div id="selection-status" class="text-center text-gray-400 mb-6 h-6">
+            </div>
+            <button id="compare-button"
+                    class="w-full py-4 px-8 bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900
+                           text-white font-bold text-xl rounded-xl shadow-lg
+                           transition-all duration-300 ease-in-out transform hover:scale-105
+                           disabled:opacity-40 disabled:cursor-not-allowed disabled:transform-none">
+                Oyuncuları Karşılaştır
+            </button>
+        </aside>
+
+        <section class="w-full md:w-3/4 bg-gray-900 rounded-xl shadow-2xl p-8 flex flex-col justify-center items-center border border-gray-700">
+            <div id="player-details" class="text-center w-full">
+                <h2 class="text-3xl font-semibold text-blue-400 mb-6">Karşılaştırma Alanı</h2>
+                <p class="text-gray-400 text-lg">Sol menüden iki oyuncu seçerek karşılaştır butonuna tıklayın.</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
