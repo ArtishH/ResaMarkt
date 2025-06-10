@@ -13,6 +13,7 @@ const players = [
     { name: "Frieztaa", photo: "https://i.hizliresim.com/dxc9akw.png", marketValue: 30 },
     { name: "Yhyatic", photo: "https://i.hizliresim.com/fs2ctkh.png", marketValue: 25 },
     { name: "Memorientes", photo: "https://i.hizliresim.com/4pk9hvw.png", marketValue: 20 },
+    { name: "Miraç7104", photo: "https://i.hizliresim.com/1lvk6o4.png", marketValue: 12 },
     
 ];
 
