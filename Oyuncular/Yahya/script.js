@@ -33,6 +33,10 @@ const playerData = {
         ]
     },
     awards: [
+        { name: "Uefa Europa League", image: "https://i.hizliresim.com/n6m4g4u.png", seasons: ["S15 Manchester City"] },
+        { name: "Altın Ayakakbı Ödülü", image: "https://w7.pngwing.com/pngs/1024/257/png-transparent-european-golden-shoe-2018-world-cup-2014-fifa-world-cup-football-serie-a-football-gold-sports-shoe-thumbnail.png", seasons: ["S16 Borussia Dortmund"] },
+        { name: "Fa Cup", image: "https://www.kindpng.com/picc/m/419-4195027_820-x-1222-fa-cup-trophy-png-transparent.png", seasons: ["S9 Nottingham Forest FC"] },
+        { name: "DIV B", image: "https://clipart-library.com/img/1260244.png", seasons: ["S7 Lokomotiv Leblon"] },
        
     ],
     seasons: {
@@ -99,6 +103,20 @@ const playerData = {
             stats: {
                 "Division 2": { matches: 7, starting: 5, goals: 2, assists: 1, yellowCards: 0, yellowRedCards: 0, redCards: 0, team: "Porto" },
                 "Uefa Europa League": { matches: 10, starting: 10, goals: 5, assists: 3, yellowCards: 2, yellowRedCards: 0, redCards: 0, team: "Porto" },
+               
+            }
+        },
+         "Sezon 15": {
+            leagueLogos: {
+                "Premier League":"https://city-png.b-cdn.net/preview/preview_public/uploads/preview/hd-the-official-premier-league-logo-transparent-background-701751712333741unp10ha2yg.png",
+                "Uefa Champions League": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo_UEFA_Champions_League.png",
+                "Division 2":"https://i.hizliresim.com/f3bnkpg.png",
+               
+            },
+            stats: {
+                "Premier League": { matches: 13, starting: 11, goals: 8, assists: 5, yellowCards: 0, yellowRedCards: 0, redCards: 0, team: "Manchester City" },
+                "Division 2": { matches: 8, starting: 7, goals: 5, assists: 3, yellowCards: 0, yellowRedCards: 0, redCards: 0, team: "AFC Ajax" },
+                "Uefa Champions League": { matches: 8, starting: 8, goals: 5, assists: 2, yellowCards: 1, yellowRedCards: 0, redCards: 0, team: "Manchester City" },
                
             }
         },
