@@ -14,6 +14,15 @@ const players = [
     { name: "Yhyatic", photo: "https://i.hizliresim.com/fs2ctkh.png", marketValue: 25 },
     { name: "Memorientes", photo: "https://i.hizliresim.com/4pk9hvw.png", marketValue: 20 },
     { name: "Miraç7104", photo: "https://i.hizliresim.com/1lvk6o4.png", marketValue: 12 },
+    { name: "KemalAhmet", photo: "https://i.hizliresim.com/cm9wsex.png", marketValue: 12.5 },
+    { name: "Splashx321", photo: "https://i.hizliresim.com/69u7dav.png", marketValue: 22.5 },
+     { name: "Huso_Master", photo: "https://i.hizliresim.com/sxtilem.png", marketValue: 10 },
+     { name: "Demirall", photo: "https://i.hizliresim.com/fwspm75.png", marketValue: 10 },
+     { name: "IOnlySuat", photo: "https://i.hizliresim.com/m1ibeii.png", marketValue: 22.5 },
+     { name: "asiturkic", photo: "https://i.hizliresim.com/r7kom4p.png", marketValue: 22.5 },
+      { name: "Atagyh", photo: "https://i.hizliresim.com/63nurvu.png", marketValue: 10 },
+      { name: "egereiz3256", photo: "https://i.hizliresim.com/d1p17s7.png", marketValue: 12.5 },
+      { name: "enisify", photo: "https://i.hizliresim.com/lka0pq4.png", marketValue: 12.5 },
     
 ];
 

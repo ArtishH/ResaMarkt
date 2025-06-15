@@ -6,113 +6,130 @@
     <title>Resamarkt</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
-<body class="bg-gray-900 min-h-screen flex flex-col items-center text-white">
+<body class="bg-gray-900 min-h-screen flex flex-col items-center text-white font-inter">
     <header class="w-full max-w-6xl p-4">
-        <h1 class="text-5xl font-extrabold text-center text-cyan-400 tracking-wider">RESAMARKT</h1>
-        
-        <nav class="mt-6 flex justify-center space-x-8">
-            <button id="playersSectionBtn" class="text-xl font-semibold text-gray-200 hover:text-cyan-400 transition-colors duration-300">Oyuncular Bölümü</button>
-            <a href="PiyasaDeğeri bilme/index.html" class="text-xl font-semibold text-gray-200 hover:text-cyan-400 transition-colors duration-300">Piyasa Değeri Bilme</a>
-            <a href="oyuncu karşılaştırma/index.html" class="text-xl font-semibold text-gray-200 hover:text-cyan-400 transition-colors duration-300">Oyuncu karşılaştırma</a>
-            <button id="infoSectionBtn" class="text-xl font-semibold text-gray-200 hover:text-cyan-400 transition-colors duration-300">Bilgilendirme</button>
+        <h1 class="text-6xl font-extrabold text-center text-cyan-400 tracking-wider mb-8 drop-shadow-lg">RESAMARKT</h1>
+
+        <nav class="mt-6 flex flex-wrap justify-center space-x-4 sm:space-x-8">
+            <button id="playersSectionBtn" class="nav-button">Oyuncular Bölümü</button>
+            <div class="relative">
+                <button id="gamingSectionBtn" class="nav-button">Oyun Bölümü</button>
+                <div id="gamingSubMenu" class="absolute top-full left-1/2 -translate-x-1/2 mt-2 hidden flex-col gap-2 gaming-sub-menu">
+                    <a href="PiyasaDeğeri bilme/index.html" class="sub-menu-link">Piyasa Değeri Bilme</a>
+                    <a href="oyuncu karşılaştırma/index.html" class="sub-menu-link">Oyuncu Karşılaştırma</a>
+                    <a href="Draft/index.html" class="sub-menu-link">Resa Draft</a>
+                </div>
+            </div>
+            <button id="infoSectionBtn" class="nav-button">Bilgilendirme</button>
         </nav>
 
         <div id="infoText" class="mt-6 p-6 bg-gray-800 rounded-lg shadow-lg text-gray-200 text-lg leading-relaxed hidden">
-            <p>Eklenmesini istediğiniz oyuncular için lütfen bu formu doldurun.</p>
-            <p class="mt-4">  https://docs.google.com/forms/d/e/1FAIpQLSeQ0KmpMPJnoNWlmfdl-G2kz5cR2qVrYkpVCy-ECKZpvOapGA/viewform?usp=sharing&ouid=111586694578518542359  </p>
-            <p class="mt-4">Oyuncular veya site ilgili bir hata varsa lütfen bu formu doldurun.</p>
-            <p class="mt-4"> https://docs.google.com/forms/d/e/1FAIpQLSeAMBGH3QudiFP_5Id-9wqEg7VoRPX0mis0E19bXqRl2H0TLw/viewform?usp=sharing&ouid=111586694578518542359 </p>
+            <p>Eklenmesini istediğiniz oyuncular için lütfen bu formu doldurun:</p>
+            <p class="mt-2">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeQ0KmpMPJnoNWlmfdl-G2kz5cR2qVrYkpVCy-ECKZpvOapGA/viewform?usp=sharing&ouid=111586694578518542359" target="_blank" class="text-cyan-400 hover:text-cyan-300 transition-colors duration-300">Oyuncu Ekleme Formu</a>
+            </p>
+            <hr> 
+             <p>Tavsiye Form:</p>
+            <p class="mt-2">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSf_prhm1r-DJWCogpUcex5To2UgNw3p9dG25tgjaZhpffofRA/viewform?usp=sharing&ouid=111586694578518542359" target="_blank" class="text-cyan-400 hover:text-cyan-300 transition-colors duration-300">Oyuncu Ekleme Formu</a>
+            </p>
+            <hr>
+            <p class="mt-4">Oyuncular veya siteyle ilgili bir hata varsa lütfen bu formu doldurun:</p>
+            <p class="mt-2">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeAMBGH3QudiFP_5Id-9wqEg7VoRPX0mis0E19bXqRl2H0TLw/viewform?usp=sharing&ouid=111586694578518542359" target="_blank" class="text-cyan-400 hover:text-cyan-300 transition-colors duration-300">Hata Bildirim Formu</a>
+            </p>
         </div>
+        
 
         <div class="mt-8 flex justify-center" id="searchSection">
-            <input type="text" id="searchInput" placeholder="Oyuncu ara..." class="w-full max-w-md p-3 rounded-l-md bg-gray-800 text-white border-none focus:outline-none focus:ring-2 focus:ring-cyan-400">
-            <button onclick="searchPlayers()" class="p-3 bg-cyan-400 text-gray-900 rounded-r-md hover:bg-cyan-500 font-bold">Ara</button>
+            <input type="text" id="searchInput" placeholder="Oyuncu ara..." class="w-full max-w-md p-3 rounded-l-lg bg-gray-800 text-white border-none focus:outline-none focus:ring-2 focus:ring-cyan-400">
+            <button onclick="searchPlayers()" class="p-3 bg-cyan-400 text-gray-900 rounded-r-lg hover:bg-cyan-500 font-bold transition-colors duration-300">Ara</button>
         </div>
     </header>
-    
+
     <main id="playerCardsSection" class="w-full max-w-6xl p-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-12 justify-items-center">
         <a href="Oyuncular/artish/index.html" class="fifa-card">
-            <img src="https://i.hizliresim.com/sa7m61t.png" >
+            <img src="https://i.hizliresim.com/sa7m61t.png" alt="Artish">
             <div class="player-info">
                 <h2 class="player-name">Artish</h2>
             </div>
         </a>
-        
         <a href="Oyuncular/Helziy/index.html" class="fifa-card">
-            <img src="https://i.hizliresim.com/prb757u.png" >
+            <img src="https://i.hizliresim.com/prb757u.png" alt="Helziy">
             <div class="player-info">
                 <h2 class="player-name">Helziy</h2>
             </div>
         </a>
         <a href="Oyuncular/Ahmet/index.html" class="fifa-card">
-            <img src="https://i.hizliresim.com/rroolxd.png" >
+            <img src="https://i.hizliresim.com/rroolxd.png" alt="babatopcuu">
             <div class="player-info">
                 <h2 class="player-name">babatopcuu</h2>
             </div>
         </a>
         <a href="Oyuncular/Meteturkic/index.html" class="fifa-card">
-            <img src="https://i.hizliresim.com/mxw4wtl.png" >
+            <img src="https://i.hizliresim.com/mxw4wtl.png" alt="Meteturkic">
             <div class="player-info">
                 <h2 class="player-name">Meteturkic</h2>
             </div>
         </a>
         <a href="Oyuncular/Erdozor/index.html" class="fifa-card">
-            <img src="https://i.hizliresim.com/kagqpqo.png" >
+            <img src="https://i.hizliresim.com/kagqpqo.png" alt="Erdozor61">
             <div class="player-info">
                 <h2 class="player-name">Erdozor61</h2>
             </div>
         </a>
         <a href="Oyuncular/Metecoskun/index.html" class="fifa-card">
-            <img src="https://i.hizliresim.com/gibidyr.png" >
+            <img src="https://i.hizliresim.com/gibidyr.png" alt="Mete7104">
             <div class="player-info">
                 <h2 class="player-name">Mete7104</h2>
             </div>
         </a>
         <a href="Oyuncular/Bulutkrh52/index.html" class="fifa-card">
-            <img src="https://i.hizliresim.com/jdsf2o7.png" >
+            <img src="https://i.hizliresim.com/jdsf2o7.png" alt="Bulutkrh52">
             <div class="player-info">
                 <h2 class="player-name">Bulutkrh52</h2>
             </div>
         </a>
         <a href="Oyuncular/emrdoku/index.html" class="fifa-card">
-            <img src="https://i.hizliresim.com/kld6vht.png" >
+            <img src="https://i.hizliresim.com/kld6vht.png" alt="emrdoku">
             <div class="player-info">
                 <h2 class="player-name">emrdoku</h2>
             </div>
         </a>
         <a href="Oyuncular/Lagi/index.html" class="fifa-card">
-            <img src="https://i.hizliresim.com/3nfqp6a.png" >
+            <img src="https://i.hizliresim.com/3nfqp6a.png" alt="Lagi">
             <div class="player-info">
                 <h2 class="player-name">Lagi</h2>
             </div>
         </a>
         <a href="Oyuncular/evil/index.html" class="fifa-card">
-            <img src="https://i.hizliresim.com/dcnjcv4.png" >
+            <img src="https://i.hizliresim.com/dcnjcv4.png" alt="evil33pro">
             <div class="player-info">
                 <h2 class="player-name">evil33pro</h2>
             </div>
-            
         </a>
         <a href="Oyuncular/Burak/index.html" class="fifa-card">
-            <img src="https://i.hizliresim.com/dxc9akw.png" >
+            <img src="https://i.hizliresim.com/dxc9akw.png" alt="frieztaa">
             <div class="player-info">
                 <h2 class="player-name">frieztaa</h2>
             </div>
         </a>
         <a href="Oyuncular/Yahya/index.html" class="fifa-card">
-            <img src="https://i.hizliresim.com/fs2ctkh.png" >
+            <img src="https://i.hizliresim.com/fs2ctkh.png" alt="Yhyatic">
             <div class="player-info">
                 <h2 class="player-name">Yhyatic</h2>
             </div>
         </a>
         <a href="Oyuncular/Memo/index.html" class="fifa-card">
-            <img src="https://i.hizliresim.com/4pk9hvw.png" >
+            <img src="https://i.hizliresim.com/4pk9hvw.png" alt="Memorientes">
             <div class="player-info">
                 <h2 class="player-name">Memorientes</h2>
             </div>
         </a>
     </main>
+
     <script src="script.js"></script>
 </body>
 </html>

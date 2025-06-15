@@ -116,7 +116,7 @@ const playerData = {
             stats: {
                 "Premier League": { matches: 13, starting: 11, goals: 8, assists: 5, yellowCards: 0, yellowRedCards: 0, redCards: 0, team: "Manchester City" },
                 "Division 2": { matches: 8, starting: 7, goals: 5, assists: 3, yellowCards: 0, yellowRedCards: 0, redCards: 0, team: "AFC Ajax" },
-                "Uefa Champions League": { matches: 8, starting: 8, goals: 11, assists: 2, yellowCards: 1, yellowRedCards: 0, redCards: 0, team: "Manchester City" },
+                "Uefa Champions League": { matches: 8, starting: 8, goals: 5, assists: 2, yellowCards: 1, yellowRedCards: 0, redCards: 0, team: "Manchester City" },
                
             }
         },
