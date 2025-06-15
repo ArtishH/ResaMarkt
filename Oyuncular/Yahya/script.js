@@ -37,6 +37,7 @@ const playerData = {
         { name: "Altın Ayakakbı Ödülü", image: "https://w7.pngwing.com/pngs/1024/257/png-transparent-european-golden-shoe-2018-world-cup-2014-fifa-world-cup-football-serie-a-football-gold-sports-shoe-thumbnail.png", seasons: ["S16 Borussia Dortmund"] },
         { name: "Fa Cup", image: "https://www.kindpng.com/picc/m/419-4195027_820-x-1222-fa-cup-trophy-png-transparent.png", seasons: ["S9 Nottingham Forest FC"] },
         { name: "DIV B", image: "https://clipart-library.com/img/1260244.png", seasons: ["S7 Lokomotiv Leblon"] },
+         { name: "Artish's Ballond'or", image: "https://i.hizliresim.com/lv4xzil.png", seasons: ["S16 Borussia Dortmund"] },
        
     ],
     seasons: {
