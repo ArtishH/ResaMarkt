@@ -1,6 +1,6 @@
 const playerData = {
     name: "Erdozor61",
-    image: "https://i.hizliresim.com/kagqpqo.png",
+    image: "https://i.hizliresim.com/q7lpwk0.png",
     position: "Ortasaha-Forvet",
     nationality: "Türkiye",
     flag: "https://flagcdn.com/w20/tr.png",

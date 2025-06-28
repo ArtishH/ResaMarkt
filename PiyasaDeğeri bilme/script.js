@@ -1,10 +1,10 @@
 
 const players = [
-    { name: "Artish", photo: "https://i.hizliresim.com/sa7m61t.png", marketValue: 12.5 }, 
+    { name: "Artish", photo: "https://i.hizliresim.com/d71b4ax.png", marketValue: 12.5 }, 
     { name: "Helziy", photo: "https://i.hizliresim.com/prb757u.png", marketValue: 20 },
     { name: "babatopcuu", photo: "https://i.hizliresim.com/rroolxd.png", marketValue: 60 },
     { name: "MeteTurkic", photo: "https://i.hizliresim.com/mxw4wtl.png", marketValue: 12.5 },
-    { name: "Erdozor61", photo: "https://i.hizliresim.com/kagqpqo.png", marketValue: 12.5 },
+    { name: "Erdozor61", photo: "https://i.hizliresim.com/q7lpwk0.png", marketValue: 12.5 },
     { name: "Mete7104", photo: "https://i.hizliresim.com/gibidyr.png", marketValue: 20 },
     { name: "Bulutkrh52", photo: "https://i.hizliresim.com/jdsf2o7.png", marketValue: 22.5 },
     { name: "emrdoku", photo: "https://i.hizliresim.com/kld6vht.png", marketValue: 25 },

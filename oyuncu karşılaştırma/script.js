@@ -2,7 +2,7 @@ const players = [
     {
         id: 1,
         name: "Artishpro31",
-        photo: "https://i.hizliresim.com/sa7m61t.png",
+        photo: "https://i.hizliresim.com/d71b4ax.png",
         stats: {
             position: "Defans",
             goals: 3,
@@ -94,7 +94,7 @@ const players = [
     {
         id: 5,
         name: "Erdozor61",
-        photo: "https://i.hizliresim.com/kagqpqo.png",
+        photo: "https://i.hizliresim.com/q7lpwk0.png",
         stats: {
             position: "Ortasaha-Forvet",
             goals: 60,

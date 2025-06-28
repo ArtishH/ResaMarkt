@@ -1,6 +1,6 @@
 const playerData = {
     name: "Artishpro31",
-    image: "https://i.hizliresim.com/sa7m61t.png",
+    image: "https://i.hizliresim.com/d71b4ax.png",
     position: "Defans",
     nationality: "Türkiye",
     flag: "https://flagcdn.com/w20/tr.png",
