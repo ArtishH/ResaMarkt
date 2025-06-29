@@ -242,7 +242,7 @@ const allPlayers = [
 { id: "miljan637_cm", pos: "CM", name: "miljan637", rating: 67, imageUrl: "" },
 { id: "zertiox_cm", pos: "CM", name: "zertiox", rating: 65, imageUrl: "" } ,
 { id: "nikdini_cm", pos: "CM", name: "nikdinii", rating: 79, imageUrl: "" },
-{ id: "talk2themoney_st", pos: "ST", name: "talk2themoney", rating: 79, imageUrl: "" },
+{ id: "talk2themoney_st", pos: "ST", name: "talk2themoney", rating: 79, imageUrl: "https://i.hizliresim.com/fs2ctkh.png" },
 { id: "asiturkic_lw", pos: "LW", name: "asiturkic", rating: 77, imageUrl: "https://i.hizliresim.com/3fyzgtf.png" },
 { id: "dsacszpro_rw", pos: "RW", name: "dsacszpro", rating: 77, imageUrl: "" },
 { id: "swmkaa_cm", pos: "CM", name: "swmkaa", rating: 77, imageUrl: "" },

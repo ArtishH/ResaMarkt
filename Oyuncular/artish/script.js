@@ -1,14 +1,14 @@
 const playerData = {
     name: "Artishpro31",
     image: "https://i.hizliresim.com/d71b4ax.png",
-    position: "Defans",
+    position: "Defans-Ortasaha",
     nationality: "Türkiye",
     flag: "https://flagcdn.com/w20/tr.png",
     currentTeam: {
-        name: "Takımsız",
-        logo: "https://www.fifacm.com/content/media/imgs/fifa22/teams/256/l111592.png",
-        league: "Takımsız",
-        leagueLevel: "Takımsız"
+       name: "Borussia Dortmund",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/7/74/Borussia_Dortmund.png",
+        league: "Bundesliga",
+        leagueLevel: "1"
     },
     marketValue: {
         current: "€12,500,000(S20)",
