@@ -178,7 +178,7 @@ const allPlayers = [
 { id: "aydincetinantreman_gk", pos: "GK", name: "aydincetinantreman", rating: 66, imageUrl: "https://i.hizliresim.com/3p9yhlx.png" },
  { id: "mete7104_LB", pos: "LB", name: "mete7104", rating: 75, imageUrl: "https://i.hizliresim.com/gibidyr.png" },
 { id: "frieztaa_cb", pos: "CB", name: "frieztaa", rating: 82, imageUrl: "https://i.hizliresim.com/dxc9akw.png" },
-{ id: "miraç7104_cb", pos: "CB", name: "miraç7104", rating: 68, imageUrl: "https://i.hizliresim.com/1lvk6o4.png" },
+{ id: "miraç7104_gk", pos: "GK", name: "miraç7104", rating: 68, imageUrl: "https://i.hizliresim.com/1lvk6o4.png" },
 { id: "papucraft_43_RB", pos: "RB", name: "papucraft_43", rating: 66, imageUrl: "https://i.hizliresim.com/gfze52z.png" },
 { id: "babatopcuu_cm", pos: "CM", name: "babatopcuu", rating: 86, imageUrl: "https://i.hizliresim.com/rroolxd.png" },
 { id: "meteturkic_cm", pos: "CM", name: "meteturkic", rating: 70, imageUrl: "https://i.hizliresim.com/mxw4wtl.png" },
@@ -1072,7 +1072,7 @@ function simulateMinute() {
 
     [userSquadMatchStats, opponentSquadMatchStats].forEach(squadStats => {
         squadStats.forEach(player => {
-            // Only update stats for players still on the field
+           
             if (player && player.isOnField) {
                 if (player.pos !== 'GK') {
                     const passes = Math.floor(Math.random() * 3);
@@ -1191,7 +1191,7 @@ function simulateMinute() {
 
     [userSquadMatchStats, opponentSquadMatchStats].forEach(squadStats => {
         squadStats.forEach(player => {
-            // Only decrement rating for players still on the field
+           
             if (player && player.isOnField) {
                 player.matchRating = Math.max(5.0, parseFloat(player.matchRating) - 0.005).toFixed(1);
             }

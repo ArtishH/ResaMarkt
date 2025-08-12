@@ -23,6 +23,15 @@ const players = [
       { name: "Atagyh", photo: "https://i.hizliresim.com/63nurvu.png", marketValue: 10 },
       { name: "egereiz3256", photo: "https://i.hizliresim.com/d1p17s7.png", marketValue: 12.5 },
       { name: "enisify", photo: "https://i.hizliresim.com/lka0pq4.png", marketValue: 12.5 },
+       { name: "Umutkurt", photo: "https://i.hizliresim.com/27j349q.png", marketValue: 22.5 },
+       { name: "Punchlife", photo: "https://i.hizliresim.com/a9b58df.png", marketValue: 10 },
+       { name: "Preytic", photo: "https://i.hizliresim.com/p3a6w70.png", marketValue: 10 },
+       { name: "Solow", photo: "https://i.hizliresim.com/fqqssg1.png", marketValue: 10 },
+       { name: "Kayra", photo: "https://i.hizliresim.com/s4nrl8k.png", marketValue: 22.5 },
+       { name: "Verlaon", photo: "https://i.hizliresim.com/ag6talh.png", marketValue: 12.5 },
+       { name: "Muh", photo: "https://i.hizliresim.com/49xgalp.png", marketValue: 12.5 },
+       { name: "Eray", photo: "https://i.hizliresim.com/54n5yuc.png", marketValue: 10 },
+       { name: "Raspy", photo: "https://i.hizliresim.com/caxh8td.png", marketValue: 10 },
     
 ];
 
@@ -30,12 +39,7 @@ let score = 0;
 let currentPlayers = []; 
 let gameActive = true; 
 
-/**
- 
- 
- * @param {Array} excludePlayers 
- * @returns {Object} 
- */
+
 function getRandomPlayer(excludePlayers = []) {
     
     let availablePlayers = players.filter(p => !excludePlayers.some(ep => ep.name === p.name));
@@ -107,10 +111,7 @@ function updateScore() {
     document.getElementById('score').textContent = score;
 }
 
-/**
- * 
- * @param {string} chosenPlayerId 
- */
+
 function handleGuess(chosenPlayerId) {
     if (!gameActive) return;
 
@@ -182,9 +183,7 @@ function handleGuess(chosenPlayerId) {
     }, 2000); 
 }
 
-/**
- *
- */
+
 function nextRound() {
     let player1 = getRandomPlayer();
    

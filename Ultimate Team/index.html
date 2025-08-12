@@ -36,6 +36,10 @@
                 <div class="tab" onclick="showTab('club')">Kulübüm</div>
                 <div class="tab" onclick="showTab('store')">Mağaza</div>
             </div>
+            
+            <div id="division-status" class="division-status">
+                </div>
+
             <div id="match" class="tab-content active match" style="align-items: center;">
                 <h2>Maç</h2>
                 <button class="btn" id="play-match-btn" onclick="prepareMatch()" disabled style="margin: 0 auto;">Maç Oyna</button>
@@ -111,7 +115,7 @@
                     </div>
                     <div class="player-list" id="player-list"></div>
                 </div>
-                 <div id="player-merge" class="sub-tab-content">
+                <div id="player-merge" class="sub-tab-content">
                     <h3>Oyuncu Birleştirme</h3>
                     <p style="text-align: center; max-width: 600px; margin: 0 auto 20px auto;">
                         Aynı oyuncudan iki veya daha fazlasına sahipseniz, onları birleştirerek rating'ini +2 artırabilirsiniz. Birleştirmek için oyuncu grubunun yanındaki butona tıklayın. (Aktif kadroda olan oyuncular birleştirilemez.)
@@ -137,7 +141,6 @@
                         <img src="https://i.hizliresim.com/42sku6m.png" alt="Basic Pack">
                         <p>Paket 1-100 Resa Coin</p>
                     </div>
-                    
                 </div>
             </div>
         </div>

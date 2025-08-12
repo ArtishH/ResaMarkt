@@ -1,0 +1,109 @@
+
+
+:root {
+    --background-color: #0d1117; 
+    --primary-neon-color: #00ffff;
+    --card-bg-color: rgba(22, 27, 34, 0.7);
+    --border-color: rgba(0, 255, 255, 0.2);
+    --text-color: #e6edf3;
+    --text-secondary-color: #8b949e;
+    --correct-color: #39ff14;
+    --close-color: #ffff00;
+    --incorrect-color: #ff073a;
+}
+@keyframes background-pan {
+    0% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } 100% { background-position: 0% 50%; }
+}
+body {
+    font-family: 'Poppins', sans-serif; background-color: var(--background-color);
+    background-image: linear-gradient(135deg, var(--background-color) 0%, #161b22 50%, var(--background-color) 100%);
+    background-size: 200% 200%; color: var(--text-color); display: flex; justify-content: center; align-items: flex-start;
+    min-height: 100vh; padding: 2rem; animation: background-pan 20s ease infinite;
+}
+.game-container { width: 100%; max-width: 950px; padding: 20px; text-align: center; }
+h1 {
+    font-family: 'Aldrich', sans-serif; font-size: 5rem; font-weight: 400; color: #ffffff;
+    letter-spacing: 0.5rem; text-transform: uppercase; margin-bottom: 1rem;
+    text-shadow: 0 0 8px var(--primary-neon-color), 0 0 12px rgba(0, 255, 255, 0.7);
+}
+.guess-counter { font-size: 1.2rem; color: var(--text-secondary-color); margin-bottom: 2rem; }
+.input-area { position: relative; max-width: 450px; margin: 0 auto 2rem auto; }
+#player-input {
+    width: 100%; padding: 15px 25px; font-size: 1.1rem; border: 2px solid var(--border-color); border-radius: 12px;
+    background-color: var(--card-bg-color); color: var(--text-color); outline: none; transition: all 0.3s ease;
+    backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+}
+#player-input:focus { border-color: var(--primary-neon-color); box-shadow: 0 0 10px var(--primary-neon-color); }
+#suggestions-box {
+    position: absolute; width: 100%; margin-top: 8px; background-color: var(--card-bg-color);
+    border: 1px solid var(--border-color); border-radius: 12px; max-height: 260px; overflow-y: auto;
+    z-index: 10; backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); text-align: left;
+}
+.suggestion-item {
+    display: flex; align-items: center; padding: 12px 20px; cursor: pointer; transition: background-color 0.2s ease;
+    border-bottom: 1px solid var(--border-color);
+}
+.suggestion-item:last-child { border-bottom: none; }
+.suggestion-item:hover { background-color: rgba(0, 255, 255, 0.1); }
+.suggestion-item img {
+    width: 45px; height: 45px; border-radius: 50%; margin-right: 15px; object-fit: cover; border: 2px solid var(--border-color);
+}
+
+
+.guesses-grid-header, .guess-row {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr); 
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.guesses-grid-header {
+    font-weight: 600;
+    color: var(--text-secondary-color);
+    padding: 0 5px;
+}
+
+.guess-cell {
+    background-color: var(--card-bg-color); backdrop-filter: blur(5px); border-radius: 8px; min-height: 90px;
+    display: flex; justify-content: center; align-items: center; text-align: center;
+    font-size: 1rem; font-weight: 600; padding: 8px; border: 2px solid transparent;
+    opacity: 0; transform: translateY(20px); animation: reveal 0.5s forwards ease-out;
+    transition: box-shadow 0.3s, border-color 0.3s;
+}
+
+.guess-cell.correct { border-color: var(--correct-color); box-shadow: 0 0 12px var(--correct-color); }
+.guess-cell.close { border-color: var(--close-color); box-shadow: 0 0 12px var(--close-color); }
+.guess-cell.incorrect { border-color: var(--incorrect-color); box-shadow: 0 0 12px var(--incorrect-color); }
+.guess-cell .player-image { width: 65px; height: 65px; border-radius: 50%; object-fit: cover; }
+
+@keyframes reveal { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+
+
+.guess-row .guess-cell:nth-child(1) { animation-delay: 0.1s; }
+.guess-row .guess-cell:nth-child(2) { animation-delay: 0.2s; }
+.guess-row .guess-cell:nth-child(3) { animation-delay: 0.3s; }
+.guess-row .guess-cell:nth-child(4) { animation-delay: 0.4s; }
+.guess-row .guess-cell:nth-child(5) { animation-delay: 0.5s; }
+.guess-row .guess-cell:nth-child(6) { animation-delay: 0.6s; }
+.guess-row .guess-cell:nth-child(7) { animation-delay: 0.7s; }
+.guess-row .guess-cell:nth-child(8) { animation-delay: 0.8s; } 
+
+
+
+#win-message {
+    position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); display: flex; justify-content: center;
+    align-items: center; z-index: 100; opacity: 0; transition: opacity 0.5s ease; pointer-events: none;
+}
+#win-message:not(.hidden) { opacity: 1; pointer-events: all; }
+.win-message-content {
+    background: var(--card-bg-color); padding: 50px; border-radius: 15px; text-align: center;
+    border: 2px solid var(--correct-color); box-shadow: 0 0 25px var(--correct-color);
+}
+.win-message-content h2 { color: var(--correct-color); font-size: 3rem; text-shadow: 0 0 15px var(--correct-color); }
+#play-again-btn {
+    background-color: transparent; color: var(--primary-neon-color); padding: 15px 30px; border: 2px solid var(--primary-neon-color);
+    border-radius: 10px; font-size: 1.1rem; font-weight: 600; cursor: pointer; margin-top: 25px; transition: all 0.3s ease;
+}
+#play-again-btn:hover { background-color: var(--primary-neon-color); color: var(--background-color); box-shadow: 0 0 20px var(--primary-neon-color); }
+.hidden { opacity: 0 !important; pointer-events: none !important; }

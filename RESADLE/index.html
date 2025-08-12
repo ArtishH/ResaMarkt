@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESA DLE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="game-container">
+        <h1>RESA DLE</h1>
+        <p class="guess-counter">Deneme: <span id="guess-count">0</span></p>
+
+        <div class="input-area">
+            <input type="text" id="player-input" placeholder="Oyuncu adını yaz...">
+            <div id="suggestions-box"></div>
+        </div>
+
+        <div class="guesses-grid-header">
+            <div class="header-item">Oyuncu</div>
+            <div class="header-item">Pozisyon</div>
+            <div class="header-item">Takım</div>
+            <div class="header-item">Lig</div> <div class="header-item">Ülke</div>
+            <div class="header-item">Rank</div>
+            <div class="header-item">Ballondor</div>
+            <div class="header-item">UCL</div>
+        </div>
+        <div id="guesses-grid">
+            </div>
+    </div>
+
+    <div id="win-message" class="hidden">
+        <div class="win-message-content">
+            <h2>Kazandın!</h2>
+            <p>Doğru oyuncuyu <span id="win-guess-count"></span> denemede buldun.</p>
+            <p>Oyuncu: <strong id="secret-player-name"></strong></p>
+            <button id="play-again-btn">Tekrar Oyna</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

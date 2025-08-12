@@ -42,7 +42,7 @@ body {
     gap: 20px;
 }
 
-/* Tıklanabilir başlığın alt çizgisini kaldırmak için ek kural */
+
 a {
     text-decoration: none;
 }
