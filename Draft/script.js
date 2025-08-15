@@ -214,7 +214,7 @@ const allPlayers = [
 { id: "zlteko_lw", pos: "LW", name: "zlteko", rating: 77, imageUrl: "https://i.hizliresim.com/55gkgsf.png" },
 { id: "rayen_rb", pos: "RB", name: "RayenITAMaster", rating: 74, imageUrl: "https://i.hizliresim.com/a38od7s.png" },
 { id: "saturn_cm", pos: "CM", name: "SaturnX7x", rating: 73, imageUrl: "https://i.hizliresim.com/5j9vzwx.png" },
-{ id: "omriglazer_cb", pos: "CB", name: "omriglazer", rating: 72, imageUrl: "https://i.hizliresim.com/dlsqmto.png" },
+{ id: "omriglazer_gk", pos: "GK", name: "omriglazer", rating: 72, imageUrl: "https://i.hizliresim.com/dlsqmto.png" },
 { id: "damulek_cb", pos: "CB", name: "DAMULEKPL", rating: 71, imageUrl: "https://i.hizliresim.com/bifv8w9.png" },
 { id: "lzxthal_cm", pos: "CM", name: "lzxthal", rating: 70, imageUrl: "" },
 { id: "joaco_lb", pos: "LB", name: "joacocivile", rating: 69, imageUrl: "" },
