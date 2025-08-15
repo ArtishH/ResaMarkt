@@ -306,6 +306,8 @@ const players = [
     { id: "Artishpro_CB", pos: "CB", name: "Artishpro31", rating: 74, imageUrl: "https://i.hizliresim.com/d71b4ax.png" },
     { id: "Hjaltee_gk", pos: "GK", name: "Hjaltee", rating: 84, imageUrl: "https://i.hizliresim.com/dnnkzvj.png" },
     { id: "Solow_CB", pos: "CB", name: "Solow", rating: 70, imageUrl: "https://i.hizliresim.com/fqqssg1.png" },
+    { id: "Muh_GK", pos: "GK", name: "Muh", rating: 71, imageUrl: "https://i.hizliresim.com/49xgalp.png" },
+     { id: "Boo4935_RB", pos: "RB", name: "Boo4935", rating: 77, imageUrl: "https://i.hizliresim.com/ezdw000.png" },
 ];
 
 
